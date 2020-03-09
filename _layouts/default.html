@@ -17,15 +17,15 @@
   <body>
 
       <header>
+        {% if site.logo %}
+          <img src="{{ site.github.logo_url }}" width="96" height="96" alt="Logo" />
+        {% endif %}
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
       <div id="banner">
         <span id="logo">
-          {% if site.logo %}
-            <img src="{{site.logo | relative_url}}" alt="Logo" />
-          {% endif %}
         </span>
 
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>

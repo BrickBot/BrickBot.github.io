@@ -1,2 +1,4 @@
 theme: jekyll-theme-leap-day
-logo: /assets/graphics/BrickBot-Logo.png
+github:
+  repository_url: https://github.com/BrickBot/
+  logo_url: https://avatars1.githubusercontent.com/u/17673949?s=200&v=4
