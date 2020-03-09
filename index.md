@@ -63,6 +63,7 @@ Neither this organization nor any of its included projects are associated in any
   - An alternative RCX operating system and firmware that is a brickOS clone.  The kernel was written from scratch to give better performance, but to the average brickOS programmer, not much should change.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
 * [leJOS](https://github.com/BrickBot/leJOS)
   - A tiny Java Virtual Machine for the Lego MindStorms RCX, containing a VM for Java bytecodes and additional software to load and run Java programs.
+  - Grew out of the [TinyVM project](https://github.com/BrickBot/TinyVM)
 * [pbForth](https://github.com/BrickBot/pbForth)
   - An incarnation of Forth that is designed to work with the LEGO MindStorms RCX brick as an alternative firmware for the RCX.
 * [colibri](https://github.com/BrickBot/colibri)
@@ -79,7 +80,9 @@ Neither this organization nor any of its included projects are associated in any
 * [TinySoar](https://github.com/BrickBot/TinySoar)
   - An implementation of the Soar artificial intelligence architecture that is intended to run on memory constrained devices.
 * [TinyVM](https://github.com/BrickBot/TinyVM)
-  - A replacement firmware and VM that can execute Java programs in the Lego Mindstorms RCX.  It supports several of the most useful features of the Java language, such as:    - Object orientation.   - Multi-threading.   - Synchronization.   - Exceptions.   - Type safety (in principle, no hanging/crashing).  Like other firmware replacements (e.g. legOS and pbForth), TinyVM breaks the 32-variable limit  imposed by Lego's official firmware. Additionally, TinyVM offers:    - No need to install a cross-compiler.   - Easy to install in general, even under CygWin.   - Over 16 Kb of memory for programs and objects.   - Firmware deletes itself when you try to     download other firmware.   - An emulation tool.   - Access to buttons, motors and sensors.   - Sensor listeners.   - Nice APIs like you only find in Java.  Starting with 0.2.0:    - Capability to rerun programs.   - Full persistence of all objects across runs.   - Timers and time routines (Time.sleep).   - java.util.Random.   - Capability to print characters on the LCD.
+  - A replacement firmware and VM that can execute Java programs in the Lego Mindstorms RCX, supporting several of the most useful features of the Java language.
+  - Breaks the 32-variable limit imposed by the official Lego firmware (like other firmware replacements such as brickOS and pbForth also do)
+  - No need to install a cross-compiler
   - The progenitor of [leJOS](https://github.com/BrickBot/leJOS)
 * [tvm-rcx](https://github.com/BrickBot/tvm-rcx)
   - A Transterpreter Virtual Machine (TVM) wrapper for the Lego MindStorms RCX
