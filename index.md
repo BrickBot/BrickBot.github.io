@@ -1,7 +1,7 @@
-# BrickBot Index
- An index to the repositories comprising the BrickBot organization.  Neither this organization nor any of its included projects are associated in any way with Lego.
+# Welcome to BrickBot!
+The page provides an index to the repositories comprising the BrickBot organization, as well as links to related resources.
 
-[Official Lego MindStorms Website](http://mindstorms.lego.com/)
+Neither this organization nor any of its included projects are associated in any way with Lego or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
 
 ## Repositories
@@ -57,7 +57,7 @@
 
 ### Extensions Built on Alternative Firmwares
 * [librcx](https://github.com/BrickBot/librcx)
-  - It would be fair to say that this represents the work that started it all!
+  - It would be fair to say that this represents the work that started it all for the RCX!
   - Intended to be a lowest-level driver for the Lego RCX, providing an interface between your C code and the RCX ROM, allowing you to easily explore the ROM interface.
 * [BrickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
   - An alternative RCX operating system and firmware that is a brickOS clone.  The kernel was written from scratch to give better performance, but to the average brickOS programmer, not much should change.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
