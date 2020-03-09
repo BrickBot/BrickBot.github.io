@@ -17,7 +17,7 @@
   <body>
 
       <header>
-        {% if site.logo %}
+        {% if site.github.logo_url %}
           <img src="{{ site.github.logo_url }}" width="96" height="96" alt="Logo" />
         {% endif %}
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
