@@ -7,16 +7,19 @@ Neither this organization nor any of its included projects are associated in any
 
 # Index of Repositories
 
-## Development Environments
-* [RobotC](https://github.com/BrickBot/RobotC)
-  - A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
-  - Includes its own version of firmware for the RCX
-* [BricxCC](http://bricxcc.sourceforge.net/) [external link]
-  - An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
-  - Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
-* NQC
-  - [nqc.vim](https://github.com/BrickBot/nqc.vim)
-    + gVim Menus for NQC (Not Quite C, version 2.3 r1 and newer) for the Lego MindStorms RCX
+## Development Suites
+* Text-Based Programming
+  - [RobotC](https://github.com/BrickBot/RobotC)
+    + A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
+    + Includes its own version of firmware for the RCX
+  - [BricxCC](http://bricxcc.sourceforge.net/) [external link]
+    + An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
+    + Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
+* Iconic/Visual Programming
+  - [VisualNQC](https://github.com/BrickBot/VisualNQC)
+    + An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
+  - [actor-lab](https://github.com/BrickBot/actor-lab) **_Tethered Only; No Stand-Alone Capabilities_**
+    + A parallel, object-orientated, iconic control language designed to introduce the ideas of control technology and robotics
 
 ## Tools and Utilities
 * [RCXDatalog](https://github.com/BrickBot/RCXDatalog)
@@ -40,23 +43,22 @@ Neither this organization nor any of its included projects are associated in any
       * An Ada to NQC translator for the Lego Mindstorms RCX
   - Iconic/Visual Programming
     + [VisualNQC](https://github.com/BrickBot/VisualNQC)
-      * An iconic language to for the Lego MindStorms RCX, which generates NQC code.
+      * An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
     + [etURP](https://github.com/BrickBot/etURP)
       * A program to create NQC (Not Quite C) files for LEGO Mindstorms robots, using a powerful language and interface to access the full potential of the Lego MindStorms RCX.
     + [QtNQC](https://github.com/BrickBot/QtNQC)
       * Appears to be a UI for NQC (no project description provided)
     + [Tern](https://github.com/BrickBot/Tern)
       * A tangible computer language designed to provide a painless introduction to computer programming, creating programs for robots like the Lego MindStorms RCX (also supports NXT).
+  - Add-Ins Supporting NQC
+    + [nqc.vim](https://github.com/BrickBot/nqc.vim)
+      * gVim Menus for NQC (Not Quite C, version 2.3 r1 and newer) for the Lego MindStorms RCX
 * [Legolog](https://github.com/BrickBot/Legolog)
   - A Prolog-based system developed to allow experimentation with and demonstration of Cognitive Robotics research on the Lego MindStorms RCX
 * [SqLego](https://github.com/BrickBot/SqLego)
   - A little package for controling a Lego MindStorms RCX system directly from Squeak, inspired by the BotKit interface.
-* [AForge.NET](https://github.com/BrickBot/AForge.NET) **__Tethered Only; No Stand-Alone Capabilities__**
-  - a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
-
-## Application Suites
-* [actor-lab](https://github.com/BrickBot/actor-lab) **__Tethered Only; No Stand-Alone Capabilities__**
-  - A parallel, object-orientated, iconic control language designed to introduce the ideas of control technology and robotics
+* [AForge.NET](https://github.com/BrickBot/AForge.NET) **_Tethered Only; No Stand-Alone Capabilities_**
+  - A C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
 
 ## Extensions Built on Alternative Firmwares
 * [librcx](https://github.com/BrickBot/librcx)
@@ -125,7 +127,7 @@ Neither this organization nor any of its included projects are associated in any
   - An experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development.
 
 
-# Accessories
+# RCX Accessories
 
 ## Power
 For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapter part # 9833.
@@ -146,7 +148,7 @@ For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapte
 ## Mac OS X
 * [NQC on Mac OS X](https://github.com/Glitchbone/mindstorms-rcx-osx-tools)
 
-## Raspberry PicoBlocks
+## Raspberry Pi
 * [Using NQC on a Raspberry Pi](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/)
 
 
