@@ -5,17 +5,19 @@ The page provides an index to the repositories comprising the BrickBot organizat
 Neither this organization nor any of its included projects are associated in any way with Lego or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
 
+* * *
+
 # Index of Repositories
 
 ## Development Suites
-* Text-Based Programming
+* **Text-Based Programming**
   - [RobotC](https://github.com/BrickBot/RobotC)
     + A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
     + Includes its own version of firmware for the RCX
   - [BricxCC](http://bricxcc.sourceforge.net/) [external link]
     + An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
     + Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
-* Iconic/Visual Programming
+* **Iconic/Visual Programming**
   - [VisualNQC](https://github.com/BrickBot/VisualNQC)
     + An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
   - [actor-lab](https://github.com/BrickBot/actor-lab) **_Tethered Only; No Stand-Alone Capabilities_**
@@ -36,12 +38,12 @@ Neither this organization nor any of its included projects are associated in any
 
 ## Extensions Built on the Lego Firmware
 * [NQC (Not Quite C)](https://github.com/BrickBot/nqc): A programming language for several Lego MindStorms products, including the RCX, CyberMaster, and Scout
-  - Text-Based Programming
+  - **Text-Based Programming**
     + [NQC-libs](https://github.com/BrickBot/nqc-libs)
       * A collection of NQC libraries from various sources
     + [Ada-MindStorms](https://github.com/BrickBot/Ada-Mindstorms)
       * An Ada to NQC translator for the Lego Mindstorms RCX
-  - Iconic/Visual Programming
+  - **Iconic/Visual Programming**
     + [VisualNQC](https://github.com/BrickBot/VisualNQC)
       * An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
     + [etURP](https://github.com/BrickBot/etURP)
@@ -50,7 +52,7 @@ Neither this organization nor any of its included projects are associated in any
       * Appears to be a UI for NQC (no project description provided)
     + [Tern](https://github.com/BrickBot/Tern)
       * A tangible computer language designed to provide a painless introduction to computer programming, creating programs for robots like the Lego MindStorms RCX (also supports NXT).
-  - Add-Ins Supporting NQC
+  - **Add-Ins Supporting NQC**
     + [nqc.vim](https://github.com/BrickBot/nqc.vim)
       * gVim Menus for NQC (Not Quite C, version 2.3 r1 and newer) for the Lego MindStorms RCX
 * [Legolog](https://github.com/BrickBot/Legolog)
@@ -127,11 +129,14 @@ Neither this organization nor any of its included projects are associated in any
   - An experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development.
 
 
+* * *
+
 # RCX Accessories
 
 ## Power
 For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapter part # 9833.
 
+* * *
 
 # Host OS Setup Help
 
@@ -151,6 +156,8 @@ For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapte
 ## Raspberry Pi
 * [Using NQC on a Raspberry Pi](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/)
 
+
+* * *
 
 # RCX Links and Resources
 The links below are a mostly uncurated collection of RCX-related websites and postings.  To retrieve some links, it may be necessary to use [archive.org](archive.org).
@@ -235,6 +242,8 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [Quick Start Guide](https://web.archive.org/web/20090502162540/http://www.ee.adfa.edu.au/staff/hrp/teaching/LegoMindstorm/LegoHelpHRP.html)
 * [Old listing of various programming languages for the RCX, retrieved via archive.org](http://web.archive.org/web/20070411223240/http://club.lego.com/messageboards/ShowPost.aspx?PostID=390806)
 
+
+* * *
 
 # Third-Party Vendors
 This GitHub organization is not associated with any of these vendors in any way;
