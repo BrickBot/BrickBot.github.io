@@ -1,12 +1,13 @@
 # Welcome to BrickBot!
 The page provides an index to the repositories comprising the BrickBot organization, as well as links to related resources.
 
+## Disclaimer
 Neither this organization nor any of its included projects are associated in any way with Lego or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
 
-# Repositories
+# Index of Repositories
 
-## Development Environments, Tools, and Utilities
+## Development Environments
 * [RobotC](https://github.com/BrickBot/RobotC)
   - A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
   - Includes its own version of firmware for the RCX
@@ -16,6 +17,8 @@ Neither this organization nor any of its included projects are associated in any
 * NQC
   - [nqc.vim](https://github.com/BrickBot/nqc.vim)
     + gVim Menus for NQC (Not Quite C, version 2.3 r1 and newer) for the Lego MindStorms RCX
+
+## Tools and Utilities
 * [RCXDatalog](https://github.com/BrickBot/RCXDatalog)
   - A GUI-based Unix tool to interact with the Lego Mindstorms RCX brick. Using RCXDatalog, you can upload the datalog of the RCX and display it on your screen or print it to a PostScript printer. Plus, there are additional widgets to show light and touch sensor readings of the RCX.
 
@@ -123,16 +126,42 @@ Neither this organization nor any of its included projects are associated in any
 
 
 # Accessories
+
+## Power
 For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapter part # 9833.
 
-# Links and Resources
+
+# Host OS Setup Help
+
+## Windows
+* [RCX USB Tower Support, by Lego Engineering](http://www.legoengineering.com/rcx-usb-tower-support/)
+* [Philo’s Archive of Lego MindStorms RCX Updates](https://www.philohome.com/sdk25/sdk25.htm)
+
+## Linux
+* [Linux Online - Lego Mindstorm with Linux Mini-HOWTO](http://www.linux.org/docs/ldp/howto/Lego/)
+* [Using Lego Mindstorms on Ubuntu « Adrian Smith's Blog](http://www.17od.com/2013/01/13/using-lego-mindstorms-on-ubuntu/)
+* [pnc-rcx Tools and programs for building programs for the Lego Mindstorms RCX 1.0 (Hitachi H8300)](https://github.com/pnc/rcx)
+* Kernel Driver: [LegoUSB](http://legousb.sourceforge.net/) – This driver is now officially part of the Linux kernel as of Linux 2.6.1.
+
+## Mac OS X
+* [NQC on Mac OS X](https://github.com/Glitchbone/mindstorms-rcx-osx-tools)
+
+## Raspberry PicoBlocks
+* [Using NQC on a Raspberry Pi](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/)
+
+
+# RCX Links and Resources
 The links below are a mostly uncurated collection of RCX-related websites and postings.  To retrieve some links, it may be necessary to use [archive.org](archive.org).
 
 ## Information and FAQs
 * [About the Lego MindStorms Robotics Invention System](https://web.archive.org/web/20060223231555/http://www.pulsar.org/archive/stormwatch/AboutLegoMindstorms.html)
 * [Expanded MindStorms FAQ at MROB](http://www.mrob.com/pub/lego/msfaq.html)
 
-#### Human Interest
+## Assorted RCX Info
+* [PBrick Info](https://pbrick.info/) (check the links in the website header and along the side, too, and not just the blog posts on the landing page)
+* [Philo’s Home Page](https://www.philohome.com/)
+
+## Human Interest
 * [Geeks in Toyland](https://www.wired.com/2006/01/geeks-in-toyland/)
 
 ## Technical Resources
@@ -169,27 +198,30 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [LIDAR Display for Lego RCX LIDARStation Isotopia](http://xenon.arcticus.com/lidar-display-lego-rcx-lidarstation)
 * [Mark Crosbies Homepage](http://www.mastincrosbie.com/mark/lego/BrickOS/BrickOS.html)
 * [Mark’s LEGO NXT Projects](http://mastincrosbie.com/Marks_LEGO_projects/LEGO_Projects.html)
+* [Peter Smolders’ Lego Hexapod](https://www.petersmolders.net/projects/robots/lego-hexapod/)
 * [RCX-Project](http://cs.uni-salzburg.at/~ck/teaching/ESE-Winter-2004/rcxrobot/)
 * [Robert Munafos LEGO(r) Creations at MROB](http://www.mrob.com/pub/lego/)
 * [The Straight and Narrow - OReilly Media](http://www.oreillynet.com/pub/a/network/2000/05/22/LegoMindstorms.html)
 * [Three Speed Automatic Transmission](http://www.last-outpost.com/~malakai/lego/)
 
-## Sensors, Multiplexors, and Devices
-* [Philo: Lego MindStorms Compatible Devices](https://www.philohome.com/sensors.htm)
+## Sensors and Multiplexors
+* [Philo: Lego MindStorms Compatible Sensor Devices](https://www.philohome.com/sensors.htm)
 * [Compass Sensor](http://www.convict.lu/Jeunes/CompassSensor.htm)
-* [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
 * [Danny's Mindstorms Page](http://unitutor.unisi.it/~danny/)
 * [Homebrew lego sensors](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/)
 * [LEGO sensor page](http://www.barello.net/ARC/projects/LEGO/)
 * [LePoMux](http://www.lepomux.org/)
 * [Line Tracking Sensor From Sven Horstmann](http://www.extremenxt.com/linetrak.htm)
 * [Michael Gasperi's LEGO Mindstorms Sensor Input Page](http://www.extremenxt.com/lego.htm)
-* [Peter Smolders](http://users.skynet.be/peter.smolders/)
 * [Sensors](http://www.convict.lu/Jeunes/Sensors.htm)
-* [TFM's Home Page](http://www.akasa.bc.ca/tfm/)
-* [TFM's Lego Page - Lego MindStorms Compatible Resistor Switch Pad](http://www.akasa.bc.ca/tfm/lego_resistor.html)
+* [TFM's Home Page](http://www.akasa.bc.ca/tfm/) – See the "My LEGO Workshop (MindStorms)" link for the following:
+  - Temperature Sensor
+  - Resisotr Switch pad
+  - Motor/Light Block
+  - Motor/Sensor Expander – 6 motor ports!
 
 ## Hardware Hacks
+* [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
 * [IR_tower_japan](http://web.archive.org/web/20060207165221/http://oase.uci.kun.nl/~mientki/Lego_Knex/Lego_electronica/IR_tower/IR_tower.htm)
 * [Lego Rotation Sensor Internals and Fix](http://www.philohome.com/sensors/legorot.htm)
 * [RCX Power Booster Schematic](http://news.lugnet.com/robotics/?n=22861)
@@ -197,37 +229,21 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [Smeagol Sub-projects Mars rover](http://www.mobnets.rwth-aachen.de/smeagol/sub-mars.php)
 * [Wireless Radio Communication](http://www.robotics.sk/maine.php?page=/projects/rcxbt/)
 
-## Firmware Platforms and Programming Languages
+## Firmware/Languages Lists
 * [Quick Start Guide](https://web.archive.org/web/20090502162540/http://www.ee.adfa.edu.au/staff/hrp/teaching/LegoMindstorm/LegoHelpHRP.html)
 * [Old listing of various programming languages for the RCX, retrieved via archive.org](http://web.archive.org/web/20070411223240/http://club.lego.com/messageboards/ShowPost.aspx?PostID=390806)
 
-## User Operating System Specifics
 
-### Windows
-* [RCX USB Tower Support, by Lego Engineering](http://www.legoengineering.com/rcx-usb-tower-support/)
-* [Philo’s Archive of Lego MindStorms RCX Updates](https://www.philohome.com/sdk25/sdk25.htm)
+# Third-Party Vendors
+This GitHub organization is not associated with any of these vendors in any way;
+links are provided as a reference.  Note that the vendors might no longer be offering RCX-compatible components.
 
-### Linux
-* [Linux Online - Lego Mindstorm with Linux Mini-HOWTO](http://www.linux.org/docs/ldp/howto/Lego/)
-* [Using Lego Mindstorms on Ubuntu « Adrian Smith's Blog](http://www.17od.com/2013/01/13/using-lego-mindstorms-on-ubuntu/)
-* [pnc-rcx Tools and programs for building programs for the Lego Mindstorms RCX 1.0 (Hitachi H8300)](https://github.com/pnc/rcx)
-* Kernel Driver: [LegoUSB](http://legousb.sourceforge.net/) – This driver is now officially part of the Linux kernel as of Linux 2.6.1.
-
-### Mac OS X
-* [NQC on Mac OS X](https://github.com/Glitchbone/mindstorms-rcx-osx-tools)
-
-## MindStorms and More
-* [PBrick Info](https://pbrick.info/)
-* [Philo’s Home Page](https://www.philohome.com/)
-
-## Third-Party Commercial Vendors
-
-### Hardware
+## Hardware
 * [HiTechnic Products](http://www.hitechnic.com/)
 * [Sensors for Lego NXT, RCX, and VEX Robots](http://www.techno-stuff.com/)
 * [www.mindsensors.com](http://www.mindsensors.com/)
 
-### Software
+## Software
+* [RCX PicoBlocks, by Playful Invention](https://www.playfulinvention.com/rcx/)
 * [RoboLab for LabVIEW](http://www.legoengineering.com/robolab-for-labview/)
   - [LabVIEW](https://decibel.ni.com/content/docs/DOC-15615)
-* [RCX PicoBlocks, by Playful Invention](https://www.playfulinvention.com/rcx/)

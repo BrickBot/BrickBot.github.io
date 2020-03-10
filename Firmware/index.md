@@ -5,7 +5,7 @@ for the latest firmware versions for a given project, please check that respecti
 
 ## Lego Firmware Files
 * firm0309 – Original version that shipped with RIS 1.0 and 1.5
-* firm0328 – Updated version that shipped with RIS 2.0
+* firm0328 – Updated version that shipped with RIS 2.0 and included with SDK 2.5
 * firm0332 – Released as part of the LEGO Education Robotics sets
 
 ## Dick Swan Firmware
