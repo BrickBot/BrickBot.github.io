@@ -14,7 +14,7 @@ Neither this organization nor any of its included projects are associated in any
   - [RobotC](https://github.com/BrickBot/RobotC)
     + A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
     + Includes its own version of firmware for the RCX
-  - [BricxCC](http://bricxcc.sourceforge.net/) &nearrow;
+  - [BricxCC](http://bricxcc.sourceforge.net/) ↗ &nearr;
     + An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
     + Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
 * **Iconic/Visual Programming**
@@ -23,7 +23,7 @@ Neither this organization nor any of its included projects are associated in any
   - [actor-lab](https://github.com/BrickBot/actor-lab) **_Tethered Only; No Stand-Alone Capabilities_**
     + A parallel, object-orientated, iconic control language designed to introduce the ideas of control technology and robotics
 * **Modeling and Implementation**
-  - [Times Tool](http://www.timestool.com/) &nearrow;
+  - [Times Tool](http://www.timestool.com/) ↗
     + A tool set for modelling, schedulability analysis, synthesis of (optimal) schedules and executable code, supporting system specification, system analysis and code generation for the LegoOS (now BrickOS-Bibo) platform
 
 ## Tools and Utilities
