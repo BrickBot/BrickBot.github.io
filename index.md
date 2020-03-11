@@ -14,7 +14,7 @@ Neither this organization nor any of its included projects are associated in any
   - [RobotC](https://github.com/BrickBot/RobotC)
     + A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
     + Includes its own version of firmware for the RCX
-  - [BricxCC](http://bricxcc.sourceforge.net/) [external link]
+  - [BricxCC](http://bricxcc.sourceforge.net/) &UpperRightArrow;
     + An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
     + Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
 * **Iconic/Visual Programming**
@@ -22,6 +22,9 @@ Neither this organization nor any of its included projects are associated in any
     + An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
   - [actor-lab](https://github.com/BrickBot/actor-lab) **_Tethered Only; No Stand-Alone Capabilities_**
     + A parallel, object-orientated, iconic control language designed to introduce the ideas of control technology and robotics
+* **Modeling and Implementation**
+  - [Times Tool](www.timestool.com/) &UpperRightArrow;
+    + A tool set for modelling, schedulability analysis, synthesis of (optimal) schedules and executable code, supporting system specification, system analysis and code generation for the LegoOS (now BrickOS-Bibo) platform
 
 ## Tools and Utilities
 * [RCXDatalog](https://github.com/BrickBot/RCXDatalog)
@@ -105,6 +108,8 @@ Neither this organization nor any of its included projects are associated in any
   - A program for communicating via the IR tower with your Lego Robot (RCX brick) using the legOS Network Protocol (LNP)
 * [lnphost](https://github.com/BrickBot/lnphost)
   - A library supporting IR communication over the Lego MindStorms IR tower. It can be used from C programs on Posix compliant platforms, supports multiple protocols and is designed to be a replacement for lnpd.
+* [pylnp](https://github.com/BrickBot/pylnp)
+  - A Python extension for LNP that enables writing Python scripts on Linux that talk to LNP-compatible applications on the RCX via the IR link
 * [WinLNP-USB](https://github.com/BrickBot/WinLNP-USB)
   - LNP over USB for Windows devices
 
