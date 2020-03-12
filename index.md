@@ -17,6 +17,9 @@ Neither this organization nor any of its included projects are associated in any
   - [BricxCC](http://bricxcc.sourceforge.net/) <sup>↗</sup>
     + An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
     + Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
+  - [Interactive C](https://web.archive.org/web/20171101054739/http://www.kipr.org/products/interactive-c) <sup>↗</sup>
+    + A program which uses a modified version of ANSI C with several libraries and features that allow hobbyists to program small robotics platforms.
+    + Able to compile on the fly (c.f. [Wikipedia](https://en.wikipedia.org/wiki/Interactive_C))
 * **Iconic/Visual Programming**
   - [VisualNQC](https://github.com/BrickBot/VisualNQC)
     + An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
@@ -27,6 +30,8 @@ Neither this organization nor any of its included projects are associated in any
     + A tool set for modelling, schedulability analysis, synthesis of (optimal) schedules and executable code, supporting system specification, system analysis and code generation for the LegoOS (now BrickOS-Bibo) platform
 
 ## Tools and Utilities
+* [lvi: leJOS Visual Interface](https://github.com/BrickBot/lvi)
+  - The leJOS Visual Interface is a skin over the command-line commands for the leJOS firmware. It also is a simple editor that can have many files open at once.
 * [RCXDatalog](https://github.com/BrickBot/RCXDatalog)
   - A GUI-based Unix tool to interact with the Lego Mindstorms RCX brick. Using RCXDatalog, you can upload the datalog of the RCX and display it on your screen or print it to a PostScript printer. Plus, there are additional widgets to show light and touch sensor readings of the RCX.
 
@@ -38,6 +43,9 @@ Neither this organization nor any of its included projects are associated in any
   - [PBrickLib](https://github.com/BrickBot/PBrickLib)
     + A shared library providing access to the Lego Mindstorms RCX controller brick (pbrick) using the Palm’s IrDA interface, allowing for applications from simple remote controls to complex applications using the Palm as a robot’s main processor and the RCX as an intelligent IO controller.
     + While not associated with this project, information has also been included about another PalmOS app for the RCX, Ellams Software’s Robotic Mover.
+* Windows CE / Pocket PC
+  - [WinCE-Cybercontrol](https://github.com/BrickBot/WinCE-Cybercontrol)
+    + Control and manipulate the Lego MindStorms RCX and Lego Cybermaster from a Palm-size PC, Handheld PC, or Pocket PC system
 
 ## Extensions Built on the Lego Firmware
 * [NQC (Not Quite C)](https://github.com/BrickBot/nqc): A programming language for several Lego MindStorms products, including the RCX, CyberMaster, and Scout
@@ -76,6 +84,8 @@ Neither this organization nor any of its included projects are associated in any
   - Grew out of the [TinyVM project](https://github.com/BrickBot/TinyVM)
 * [pbForth](https://github.com/BrickBot/pbForth)
   - An incarnation of Forth that is designed to work with the LEGO MindStorms RCX brick as an alternative firmware for the RCX.
+* [Asterix](https://github.com/BrickBot/Asterix)
+  - A graphical user interface with support for real-time applications, built on top of a small, fast, and efficient real-time microkernel (RTOS)
 * [colibri](https://github.com/BrickBot/colibri)
   - An Open Source RTOS Subset
 * [ERIKA](https://github.com/BrickBot/erika)
@@ -108,6 +118,8 @@ Neither this organization nor any of its included projects are associated in any
   - A program for communicating via the IR tower with your Lego Robot (RCX brick) using the legOS Network Protocol (LNP)
 * [lnphost](https://github.com/BrickBot/lnphost)
   - A library supporting IR communication over the Lego MindStorms IR tower. It can be used from C programs on Posix compliant platforms, supports multiple protocols and is designed to be a replacement for lnpd.
+* [lnpd](https://github.com/BrickBot/lnpd)
+  - The LegOS Network Protocol Daemon, which allows for communication between brickOS-powered robots and host computers.
 * [pylnp](https://github.com/BrickBot/pylnp)
   - A Python extension for LNP that enables writing Python scripts on Linux that talk to LNP-compatible applications on the RCX via the IR link
 * [WinLNP-USB](https://github.com/BrickBot/WinLNP-USB)
@@ -185,6 +197,7 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [LEGO MINDSTORMS Internals](https://web.archive.org/web/20190816230906/http://www.crynwr.com/lego-robotics/)
 * [RCX Manual](https://web.archive.org/web/20190703224522/http://legolab.daimi.au.dk/CSaEA/RCX/Manual.dir/RCXManual.html)
 * [How to LNP](http://www.cs.brown.edu/courses/cs148/old/2004fall/brickOS/HOWTO/lnp.html)
+* [Notes on LNP](https://web.archive.org/web/20040627230632/http://www.docs.uu.se/docs/undergrad/instances/spring2002/RTSystemDvpMnp/assignments/notes_on_lnp.html)
 
 ## Education
 * [LEGO Education Home](http://www.lego.com/education/)
