@@ -1,6 +1,14 @@
 # Welcome to BrickBot!
 The page provides an index to the repositories comprising the BrickBot organization, as well as links to related resources.
 
+All projects imported to GitHub have been curated to varying degrees as part of the import process.
+Please feel free to join and contribute in whatever way you can, whether that might be cleaning up
+or updating documenation, converting text files to Markdown, setting up wikis, or updating code to
+work with the latest host platforms.
+
+The initial 50+ projects collected under this BrickBot organization on GitHub were found and gathered by Matthew Sheets.
+
+
 ## Disclaimer
 Neither this organization nor any of its included projects are associated in any way with Lego or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
@@ -66,10 +74,16 @@ Neither this organization nor any of its included projects are associated in any
   - **Add-Ins Supporting NQC**
     + [nqc.vim](https://github.com/BrickBot/nqc.vim)
       * gVim Menus for NQC (Not Quite C, version 2.3 r1 and newer) for the Lego MindStorms RCX
+* [ASML: Asynchronous State Machine Language](https://github.com/BrickBot/ASML)
+  - Execute Asynchronous State Machine (ASM) charts as RCX programs
 * [Legolog](https://github.com/BrickBot/Legolog)
   - A Prolog-based system developed to allow experimentation with and demonstration of Cognitive Robotics research on the Lego MindStorms RCX
+* [MostlyC](https://github.com/BrickBot/MostlyC)
+  - A C-style language that includes a number of features not present in NQC: true subroutines, functions w/parameters, bool/float types, large const arrays, math library
 * [SqLego](https://github.com/BrickBot/SqLego)
   - A little package for controling a Lego MindStorms RCX system directly from Squeak, inspired by the BotKit interface.
+* [TclRCX](https://github.com/BrickBot/TclRCX)
+  - An extension to the [Tcl interpreter](https://www.tcl.tk/) to let you issue commands to the RCX interactively or compile bytecode programs, download, and run them
 * [AForge.NET](https://github.com/BrickBot/AForge.NET) **_Tethered Only; No Stand-Alone Capabilities_**
   - A C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
 
