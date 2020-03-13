@@ -147,7 +147,7 @@ Neither this organization nor any of its included projects are associated in any
 * [RCXSimulator](https://github.com/BrickBot/RCXSimulator)
   - A Java-based emulator of the Lego MindStorms RCX
 * [Intellejos](https://github.com/BrickBot/Intellejos)
-  - A Lego RCX Simulator in Java, which is a fork of the earlier Intellego project by Graham Ritchie.
+  - An RCX Simulator for LeJOS, based on the earlier Intellego project, for learning to program in Java using the LeJOS platform.
 * [Intellego](https://github.com/BrickBot/Intellego)
   - A tool for experimenting with robotic control techniques, providing a framework which enables researchers to develop controller programs for the Lego MindStorms RCX in Java, and test them either in simulation or in a real RCX robot with no alteration to the controller code.
 * [LegoSim](https://github.com/BrickBot/LegoSim)
