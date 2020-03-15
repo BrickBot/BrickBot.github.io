@@ -12,6 +12,12 @@ The initial 50+ projects collected under this BrickBot organization on GitHub we
 ## Disclaimer
 Neither this organization nor any of its included projects are associated in any way with Lego or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
+## Notes
+No known version of the Lego USB tower driver for 64-bit Windows is known to exist.
+Conversely, there is not currenly a version of GitHub Desktop for 32-bit Windows.
+For those wanting an alternative to GitHub Desktop that also provides a 32-bit distribution,
+the open source [GitAhead](http://gitahead.com/) project is suggested.
+
 
 * * *
 
@@ -78,6 +84,8 @@ Neither this organization nor any of its included projects are associated in any
   - Execute Asynchronous State Machine (ASM) charts as RCX programs
 * [Legolog](https://github.com/BrickBot/Legolog)
   - A Prolog-based system developed to allow experimentation with and demonstration of Cognitive Robotics research on the Lego MindStorms RCX
+* [Lego/Scheme](https://github.com/BrickBot/Lego-Scheme)
+  - An implementation of Scheme for the Lego MindStorms RCX
 * [MostlyC](https://github.com/BrickBot/MostlyC)
   - A C-style language that includes a number of features not present in NQC: true subroutines, functions w/parameters, bool/float types, large const arrays, math library
 * [SqLego](https://github.com/BrickBot/SqLego)
@@ -86,6 +94,14 @@ Neither this organization nor any of its included projects are associated in any
   - An extension to the [Tcl interpreter](https://www.tcl.tk/) to let you issue commands to the RCX interactively or compile bytecode programs, download, and run them
 * [AForge.NET](https://github.com/BrickBot/AForge.NET) **_Tethered Only; No Stand-Alone Capabilities_**
   - A C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
+* [InteractiveVB](https://github.com/BrickBot/InteractiveVB)
+  - Interactive control of a Lego Mindstorm RCX with Visual Basic
+* [RCX Java API](https://github.com/BrickBot/RCX-Java-API) **_Tethered Only; No Stand-Alone Capabilities_**
+  - A platform-independent Java library used to develop RCX applications
+* [RCX.NET](https://github.com/BrickBot/RCX.NET) **_Tethered Only; No Stand-Alone Capabilities_**
+  - Lets you use your favorite development environment (.NET) to send commands to your Lego MindStorms® RCX
+* [RCXPort](https://github.com/BrickBot/RCXPort)
+  - A Java interface to the Lego MindStorms RCX
 
 ## Extensions Built on Alternative Firmwares
 * [librcx](https://github.com/BrickBot/librcx)
@@ -93,9 +109,23 @@ Neither this organization nor any of its included projects are associated in any
   - Intended to be a lowest-level driver for the Lego RCX, providing an interface between your C code and the RCX ROM, allowing you to easily explore the ROM interface.
 * [BrickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
   - An alternative RCX operating system and firmware that is a brickOS clone.  The kernel was written from scratch to give better performance, but to the average brickOS programmer, not much should change.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
-* [leJOS](https://github.com/BrickBot/leJOS)
-  - A tiny Java Virtual Machine for the Lego MindStorms RCX, containing a VM for Java bytecodes and additional software to load and run Java programs.
-  - Grew out of the [TinyVM project](https://github.com/BrickBot/TinyVM)
+* [leJOS](https://github.com/BrickBot/leJOS-RCX)
+  - **About**
+    + A tiny Java Virtual Machine for the Lego MindStorms RCX, containing a VM for Java bytecodes and additional software to load and run Java programs.
+    + Grew out of the [TinyVM project](https://github.com/BrickBot/TinyVM)
+  - **APIs**
+    + [leJOS-RCX-Alt-API](https://github.com/BrickBot/leJOS-RCX-Alt-API)
+      * An alternative to part of the standard leJOS API designed to fit an objects-early approach to teaching programming
+  - **IDE Add-Ins**
+    + [leJOS Development Toolset for Eclipse](https://github.com/BrickBot/leJOS-RCX-Eclipse)
+      * Eclipse plug-ins that simplify developing Java code for the Lego MindStorms RCX using the leJOS JVM, offering easy configuration through a project wizard and a preference page, using Eclipse code building, and adding RCX-specific operations both for firmware and byte-code download.
+  - **Utilities**
+    + [leJOS-RCX-Tools](https://github.com/BrickBot/leJOS-RCX-Tools)
+      * A visual interface for leJOS. RCXDownload automatically sets the JDK-, leJOS- and ClassPaths, compiles the chosen Java-Source, shows the compiler messages and is able to link and load both the compiled classes and the leJOS-firmware.
+    + [leJOS-RCX-MindStormsTools](https://github.com/BrickBot/leJOS-RCX-MindStormsTools)
+      * A small toolkit to aid in the uploading of Java programs to LEGO MindStorms RCX bricks, providing functionality of the leJOS library in the development environment for this purpose
+    + [leJOS-RCX-TextLCDApplet](https://github.com/BrickBot/leJOS-RCX-TextLCDApplet)
+      * Java Applet GUI for testing josx.platform.rcx.TextLCD
 * [pbForth](https://github.com/BrickBot/pbForth)
   - An incarnation of Forth that is designed to work with the LEGO MindStorms RCX brick as an alternative firmware for the RCX.
 * [Asterix](https://github.com/BrickBot/Asterix)
@@ -212,6 +242,7 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [RCX Manual](https://web.archive.org/web/20190703224522/http://legolab.daimi.au.dk/CSaEA/RCX/Manual.dir/RCXManual.html)
 * [How to LNP](http://www.cs.brown.edu/courses/cs148/old/2004fall/brickOS/HOWTO/lnp.html)
 * [Notes on LNP](https://web.archive.org/web/20040627230632/http://www.docs.uu.se/docs/undergrad/instances/spring2002/RTSystemDvpMnp/assignments/notes_on_lnp.html)
+* [Lego RCX Firmware Disassembler](http://web.archive.org/web/20011029155757/http://www.geocities.com/ResearchTriangle/Thinktank/4411/)
 
 ## Education
 * [LEGO Education Home](http://www.lego.com/education/)
