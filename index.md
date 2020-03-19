@@ -50,6 +50,9 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - A GUI-based Unix tool to interact with the Lego Mindstorms RCX brick. Using RCXDatalog, you can upload the datalog of the RCX and display it on your screen or print it to a PostScript printer. Plus, there are additional widgets to show light and touch sensor readings of the RCX.
 
 ## Remote Control
+* Windows
+  - [JoyBricx](https://github.com/BrickBot/JoyBricx)
+    + An application for remotely controlling Lego IR-controllable devices such as the RCX, Spybots, and Bionicle RC Fighter via a Lego IR tower using a joystick or game pad
 * Gnome
   - [BrickRC](https://github.com/BrickBot/BrickRC)
     + A simple Gnome application to remotely control the LEGO MindStorms RCX brick
@@ -86,6 +89,8 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - A Prolog-based system developed to allow experimentation with and demonstration of Cognitive Robotics research on the Lego MindStorms RCX
 * [Lego/Scheme](https://github.com/BrickBot/Lego-Scheme)
   - An implementation of Scheme for the Lego MindStorms RCX
+* [Mind Control](https://github.com/BrickBot/MindControl)
+  - A Visual Basic program for controlling a Lego MindStorms RCX or Cybermaster unit
 * [MostlyC](https://github.com/BrickBot/MostlyC)
   - A C-style language that includes a number of features not present in NQC: true subroutines, functions w/parameters, bool/float types, large const arrays, math library
 * [SqLego](https://github.com/BrickBot/SqLego)
@@ -104,6 +109,10 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - A Java interface to the Lego MindStorms RCX
 * [VC++ Interface](https://github.com/BrickBot/VCpp-Interface) **_Tethered Only; No Stand-Alone Capabilities_**
   - A small direct interface that remote controls the RCX from within a Windows C program on the host computer
+  - **Extensions**
+    + [MSWBrick](https://github.com/BrickBot/MSWBrick)
+      * Using the Lego MindStorms RCX with MSW Logo
+      * Depends on and requires the Visual C++ interface provided by the [VC++ Interface](https://github.com/BrickBot/VCpp-Interface) project
 
 ## Extensions Built on Alternative Firmwares
 * [librcx](https://github.com/BrickBot/librcx)
