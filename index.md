@@ -12,6 +12,9 @@ The initial 60+ projects gathered under this BrickBot organization on GitHub wer
 ## Disclaimer
 Neither this organization nor any of its included projects are associated in any way with Lego or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
+Some sites referenced only by link do not have a repository setup to due to identified redistribution restrictions.
+
+
 ## Notes
 No known version of the Lego USB tower driver for 64-bit Windows is known to exist.
 Conversely, there is not currenly a version of GitHub Desktop for 32-bit Windows.
@@ -53,6 +56,8 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * Windows
   - [JoyBricx](https://github.com/BrickBot/JoyBricx)
     + An application for remotely controlling Lego IR-controllable devices such as the RCX, Spybots, and Bionicle RC Fighter via a Lego IR tower using a joystick or game pad
+  - [Dr. Vegetable’s Virtual Remote](https://web.archive.org/web/20161223173934/http://www.drvegetable.com/download_vremote.html) <sup>↗</sup>
+    + A Windows program that emulates the LEGO MindStorms infrared remote control using your existing USB or RS-232 infrared tower
 * Gnome
   - [BrickRC](https://github.com/BrickBot/BrickRC)
     + A simple Gnome application to remotely control the LEGO MindStorms RCX brick
