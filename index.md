@@ -6,7 +6,7 @@ Please feel free to join and contribute in whatever way you can, whether that mi
 or updating documenation, converting text files to Markdown, setting up wikis, or updating code to
 work with the latest host platforms.
 
-The initial 50+ projects collected under this BrickBot organization on GitHub were found and gathered by Matthew Sheets.
+The initial 60+ projects gathered under this BrickBot organization on GitHub were collected by Matthew Sheets.
 
 
 ## Disclaimer
@@ -94,14 +94,16 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - An extension to the [Tcl interpreter](https://www.tcl.tk/) to let you issue commands to the RCX interactively or compile bytecode programs, download, and run them
 * [AForge.NET](https://github.com/BrickBot/AForge.NET) **_Tethered Only; No Stand-Alone Capabilities_**
   - A C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
-* [InteractiveVB](https://github.com/BrickBot/InteractiveVB)
+* [InteractiveVB](https://github.com/BrickBot/InteractiveVB) **_Tethered Only; No Stand-Alone Capabilities_**
   - Interactive control of a Lego Mindstorm RCX with Visual Basic
 * [RCX Java API](https://github.com/BrickBot/RCX-Java-API) **_Tethered Only; No Stand-Alone Capabilities_**
   - A platform-independent Java library used to develop RCX applications
 * [RCX.NET](https://github.com/BrickBot/RCX.NET) **_Tethered Only; No Stand-Alone Capabilities_**
   - Lets you use your favorite development environment (.NET) to send commands to your Lego MindStorms® RCX
-* [RCXPort](https://github.com/BrickBot/RCXPort)
+* [RCXPort](https://github.com/BrickBot/RCXPort) **_Tethered Only; No Stand-Alone Capabilities_**
   - A Java interface to the Lego MindStorms RCX
+* [VC++ Interface](https://github.com/BrickBot/VCpp-Interface) **_Tethered Only; No Stand-Alone Capabilities_**
+  - A small direct interface that remote controls the RCX from within a Windows C program on the host computer
 
 ## Extensions Built on Alternative Firmwares
 * [librcx](https://github.com/BrickBot/librcx)
