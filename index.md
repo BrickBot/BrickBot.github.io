@@ -51,6 +51,8 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - The leJOS Visual Interface is a skin over the command-line commands for the leJOS firmware. It also is a simple editor that can have many files open at once.
 * [RCXDatalog](https://github.com/BrickBot/RCXDatalog)
   - A GUI-based Unix tool to interact with the Lego Mindstorms RCX brick. Using RCXDatalog, you can upload the datalog of the RCX and display it on your screen or print it to a PostScript printer. Plus, there are additional widgets to show light and touch sensor readings of the RCX.
+* [Bound-T for the H8/300](https://github.com/BrickBot/Bound-T-H8-300)
+  - A software tool that uses static analysis of machine code to compute upper bounds on the execution time (WCET) and stack usage of embedded programs
 
 ## Remote Control
 * Windows
@@ -154,7 +156,7 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - DCC capabilities for the Lego MindStorms RCX
 * [OnScreenProgramming](https://github.com/BrickBot/OnScreenProgramming)
   - Facilitates programming a Lego Mindstorms RCX on its LCD screen via its View/Prgm buttons, without use of a computer
-* [Quite C (QC)](https://github.com/BrickBot/QC)
+* [Quite C](https://github.com/BrickBot/QuiteC)
   - Quite C is intended to be a repackaging and reordering of a miniOS (no multitasking!) for the Lego RCX. It provides an interface between your C code and the ROM. The intent is to allow you to write very large programs in C language (neural and pathfinder programs like) with Microsoft Windows platform. LegOS is too Unixish ;)
   - Each program appears to be created as its own firmware (SREC) file
 * [TinySoar](https://github.com/BrickBot/TinySoar)
@@ -172,8 +174,10 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - Control Lego MindStorms RCX robots from afar (e.g. over the Internet)
 * [RCX-IR](https://github.com/BrickBot/RCX-IR)
   - Communicate with the Lego RCX controller without the need of a Lego IR tower, converting between the IrDA and cIR protocols. Includes support for Java Native Interface (JNI).
-* [perl-IR](https://github.com/BrickBot/perl-IR)
-  - Communicate with the Lego MindStorms(R) RCX brick from a workstation through the IR tower.
+* [perl-LEGO-RCX](https://github.com/BrickBot/perl-LEGO-RCX)
+  - Communicate with the Lego MindStorms RCX brick from a workstation through the IR tower.
+* [LINX](https://github.com/BrickBot/LINX)
+  - Control a Lego robot via Perl scripts from a webserver or console
 * [legoshrink](https://github.com/BrickBot/legoshrink)
   - A program for communicating via the IR tower with your Lego Robot (RCX brick) using the legOS Network Protocol (LNP)
 * [lnphost](https://github.com/BrickBot/lnphost)
@@ -184,6 +188,8 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - A Python extension for LNP that enables writing Python scripts on Linux that talk to LNP-compatible applications on the RCX via the IR link
 * [WinLNP-USB](https://github.com/BrickBot/WinLNP-USB)
   - LNP over USB for Windows devices
+* [RCX LNP LIB](https://github.com/BrickBot/RCX-LNP-LIB)
+  - A DLL that ecapsulates LNP communication code, along with an example Visual Basic application
 
 ## Emulators
 * [getROM](https://github.com/BrickBot/getROM)
