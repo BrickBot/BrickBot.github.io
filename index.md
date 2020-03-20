@@ -37,6 +37,8 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - [Interactive C](https://web.archive.org/web/20171101054739/http://www.kipr.org/products/interactive-c) <sup>↗</sup>
     + A program which uses a modified version of ANSI C with several libraries and features that allow hobbyists to program small robotics platforms.
     + Able to compile on the fly (c.f. [Wikipedia](https://en.wikipedia.org/wiki/Interactive_C))
+  - [PRO-BOT](http://mapageweb.umontreal.ca/cousined/lego/4-RCX/PRO-BOT/) <sup>↗</sup>  **_Tethered Only; No Stand-Alone Capabilities_**
+    + A program editor for the Lego MindStorms RCX programmable brick aimed at keeping a constant link between the PC and the brick
 * **Iconic/Visual Programming**
   - [VisualNQC](https://github.com/BrickBot/VisualNQC)
     + An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
