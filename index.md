@@ -6,7 +6,7 @@ Please feel free to join and contribute in whatever way you can, whether that mi
 or updating documenation, converting text files to Markdown, setting up wikis, or updating code to
 work with the latest host platforms.
 
-The initial 60+ projects gathered under this BrickBot organization on GitHub were collected by Matthew Sheets.
+The initial seventy-plus (70+) projects gathered under this BrickBot organization on GitHub were collected by Matthew Sheets.
 
 
 ## Disclaimer
@@ -16,7 +16,7 @@ Some sites referenced only by link do not have a repository setup to due to iden
 
 
 ## Notes
-No known version of the Lego USB tower driver for 64-bit Windows is known to exist.
+No version of the Lego USB tower driver for 64-bit Windows is known to exist.
 Conversely, there is not currenly a version of GitHub Desktop for 32-bit Windows.
 For those wanting an alternative to GitHub Desktop that also provides a 32-bit distribution,
 the open source [GitAhead](http://gitahead.com/) project is suggested.
@@ -127,8 +127,13 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * [librcx](https://github.com/BrickBot/librcx)
   - It would be fair to say that this represents the work that started it all for the RCX!
   - Intended to be a lowest-level driver for the Lego RCX, providing an interface between your C code and the RCX ROM, allowing you to easily explore the ROM interface.
-* [BrickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
-  - An alternative RCX operating system and firmware that is a brickOS clone.  The kernel was written from scratch to give better performance, but to the average brickOS programmer, not much should change.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
+* [BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo)
+  - **About**
+    + An alternative RCX operating system and firmware that is a brickOS clone.  The kernel was written from scratch to give better performance, but to the average brickOS programmer, not much should change.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
+  - **Add-ons and Extensions**
+    + [scLego](https://github.com/BrickBot/scLego)
+      * An Esterel back-end for Lego C with BrickOS-Bibo
+      * Esterel demo programs are already included with BrickOS-Bibo; install the Esterel compiler and this back-end extension to be able to build and use them
 * [leJOS](https://github.com/BrickBot/leJOS-RCX)
   - **About**
     + A tiny Java Virtual Machine for the Lego MindStorms RCX, containing a VM for Java bytecodes and additional software to load and run Java programs.
