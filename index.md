@@ -76,12 +76,12 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * [NQC (Not Quite C)](https://github.com/BrickBot/nqc): A programming language for several Lego MindStorms products, including the RCX, CyberMaster, and Scout
   - **Text-Based Programming**
     + [NQC-libs](https://github.com/BrickBot/nqc-libs)
-      * A collection of NQC libraries from various sources
+      * A collection of NQC libraries from various sources, plus some programs as well as full NQC tutorial with accompanying code samples.
     + [Ada-MindStorms](https://github.com/BrickBot/Ada-Mindstorms)
       * An Ada to NQC translator for the Lego Mindstorms RCX
   - **Iconic/Visual Programming**
-    + [VisualNQC](https://github.com/BrickBot/VisualNQC)
-      * An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
+    + [VisualNQC](https://github.com/BrickBot/VisualNQC)  (formerly fUNSoftWare)
+      * An iconic language tool for the Lego MindStorms RCX, which generates NQC code and can facilitate handling the NQC compilation and deployment processes, too.
     + [etURP](https://github.com/BrickBot/etURP)
       * A program to create NQC (Not Quite C) files for LEGO Mindstorms robots, using a powerful language and interface to access the full potential of the Lego MindStorms RCX.
     + [QtNQC](https://github.com/BrickBot/QtNQC)
@@ -128,7 +128,7 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - Intended to be a lowest-level driver for the Lego RCX, providing an interface between your C code and the RCX ROM, allowing you to easily explore the ROM interface.
 * [BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo)
   - **About**
-    + An alternative RCX operating system and firmware that is a brickOS clone.  The kernel was written from scratch to give better performance, but to the average brickOS programmer, not much should change.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
+    + An alternative RCX operating system and firmware cloning brickOS. The kernel was written from scratch for better performance, but to the average brickOS programmer, changes should be transparent.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
   - **Add-ons and Extensions**
     + [scLego](https://github.com/BrickBot/scLego)
       * An Esterel back-end for Lego C with BrickOS-Bibo
@@ -250,6 +250,9 @@ For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapte
 * [Using Lego Mindstorms on Ubuntu « Adrian Smith's Blog](http://www.17od.com/2013/01/13/using-lego-mindstorms-on-ubuntu/)
 * [pnc-rcx Tools and programs for building programs for the Lego Mindstorms RCX 1.0 (Hitachi H8300)](https://github.com/pnc/rcx)
 * Kernel Driver: [LegoUSB](http://legousb.sourceforge.net/) – This driver is now officially part of the Linux kernel as of Linux 2.6.1.
+
+### Debian / Ubuntu
+* [Lego-Related Packages for Debian, from the Debian Lego Team](https://qa.debian.org/developer.php?login=debian-lego-team%40lists.alioth.debian.org)
 
 ## Mac OS X
 * [NQC on Mac OS X](https://github.com/Glitchbone/mindstorms-rcx-osx-tools)
