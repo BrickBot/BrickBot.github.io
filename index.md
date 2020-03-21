@@ -6,7 +6,7 @@ Please feel free to join and contribute in whatever way you can, whether that mi
 or updating documenation, converting text files to Markdown, setting up wikis, or updating code to
 work with the latest host platforms.
 
-The initial seventy-plus (70+) projects gathered under this BrickBot organization on GitHub were collected by Matthew Sheets.
+The initial seventy-plus (70+) projects gathered under this BrickBot organization on GitHub were largely collected by Matthew Sheets.
 
 
 ## Disclaimer
@@ -20,7 +20,6 @@ No version of the Lego USB tower driver for 64-bit Windows is known to exist.
 Conversely, there is not currenly a version of GitHub Desktop for 32-bit Windows.
 For those wanting an alternative to GitHub Desktop that also provides a 32-bit distribution,
 the open source [GitAhead](http://gitahead.com/) project is suggested.
-
 
 * * *
 
@@ -197,8 +196,20 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - LNP over USB for Windows devices
 * [RCX LNP LIB](https://github.com/BrickBot/RCX-LNP-LIB)
   - A DLL that ecapsulates LNP communication code, along with an example Visual Basic application
+* [hubub](https://github.com/BrickBot/hubub)
+  - A simple TCP data reflector for quickly building distributed applications. It can broadcast data from one client to many (or many to many) with little system overhead. Written in heavily commented 'c', with example clients in TCL.
 
 ## Emulators
+A number of  the emulators support TCP communication in place of the IR communication.
+While some tools have been updated to provide built-in support for TCP communication,
+if you are using a tool that supports serial IR communication but not TCP communication,
+it might be possible to use a null-modem emulator such as the [com0com project for Windows](http://com0com.sf.net/),
+which includes both a com2tcp component as well as hub4com component.
+
+Note that the program ir-server is included with the [BrickOS-Bibo project](https://github.com/BrickBot/brickOS-bibo)
+and includes “echoing” that is meant to mimic the behavior of IR communication.
+Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) project that is included in this GitHub organization.
+
 * [getROM](https://github.com/BrickBot/getROM)
   - Tools and utilities from dumping the ROM from an RCX, which is often then used by RCX emulators.
 * [BrickEmu](https://github.com/BrickBot/BrickEmu)
@@ -333,6 +344,16 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 ## Firmware/Languages Lists
 * [Quick Start Guide](https://web.archive.org/web/20090502162540/http://www.ee.adfa.edu.au/staff/hrp/teaching/LegoMindstorm/LegoHelpHRP.html)
 * [Old listing of various programming languages for the RCX, retrieved via archive.org](http://web.archive.org/web/20070411223240/http://club.lego.com/messageboards/ShowPost.aspx?PostID=390806)
+
+## General GitHub Tips
+* [Synchronizing a Fork](https://github.community/t5/How-to-use-Git-and-GitHub/Syncing-a-fork-leaves-me-one-commit-ahead-of-upstream-master/m-p/17711#M5346)
+
+
+[StackOverflow-DetachFork]: # (https://stackoverflow.com/q/16052477)
+
+[GitHub-DetachFork]: # (https://help.github.com/en/github/setting-up-and-managing-your-github-profile/why-are-my-contributions-not-showing-up-on-my-profile#commit-was-made-in-a-fork)
+
+[Markdown-Comments]: # (https://stackoverflow.com/a/32190021)
 
 
 * * *
