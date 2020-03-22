@@ -46,6 +46,17 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * **Modeling and Implementation**
   - [Times Tool](http://www.timestool.com/) <sup>↗</sup>
     + A tool set for modelling, schedulability analysis, synthesis of (optimal) schedules and executable code, supporting system specification, system analysis and code generation for the LegoOS (now BrickOS-Bibo) platform
+* **Historical Reference Only / Superceded or No Longer Available**
+  - [RCX Command Center](https://web.archive.org/web/20070204040037/http://www.cs.uu.nl/people/markov/lego/) <sup>↗</sup>
+    + The predecessor to Bricx Command Center
+  - [BrickCommand2](https://web.archive.org/web/20091023045530/http://www.geocities.com/Area51/Nebula/8488/lego.html)
+    + A programming tool for Lego MindStorms RCX and Lego Cybermaster systems, offering more control over the brick than the software that comes with each system.
+    + The setup installer was broken up into 3 separate zip file downloads, plus an additional update download; unfortunately, only 2 of the 3 setup zip files appear to have survived.
+  - [PBrickDev](https://web.archive.org/web/20091024223614/http://geocities.com/pbrickdev/index.html)
+    + A complete programming environment for the RCX that used a graphical interface for programming, instead of writing code
+    + The latest version used the Phantom.dll COM component by "Fenestra Software" instead of Lego's Spirit.ocx
+  - [NQCEdit](http://www.bitling.com/nqcedit.htm)
+    + Little is currently known about this software; not even a website archive appears to have survived.
 
 ## Tools and Utilities
 * [lvi: leJOS Visual Interface](https://github.com/BrickBot/lvi)
@@ -129,6 +140,13 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * [BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo)
   - **About**
     + An alternative RCX operating system and firmware cloning brickOS. The kernel was written from scratch for better performance, but to the average brickOS programmer, changes should be transparent.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
+    + Built in support is now included for the following programming languages:
+      * C / C++
+      * XS:Lisp
+      * Esterel (_installation of prerequisties is necessary in order to compile programs for the RCX_)
+      * Luster  (_TODO_)
+      * SCADE  (_TODO_)
+      * .NET  (_TODO_)
   - **Add-ons and Extensions**
     + [scLego](https://github.com/BrickBot/scLego)
       * An Esterel back-end for Lego C with BrickOS-Bibo
@@ -244,6 +262,8 @@ For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapte
 ## Windows
 * [RCX USB Tower Support, by Lego Engineering](http://www.legoengineering.com/rcx-usb-tower-support/)
 * [Philo’s Archive of Lego MindStorms RCX Updates](https://www.philohome.com/sdk25/sdk25.htm)
+* [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)
+  - [VcXsrv](http://vcxsrv.sf.net/) X-server for Windows
 
 ## Linux
 * [Linux Online - Lego Mindstorm with Linux Mini-HOWTO](http://www.linux.org/docs/ldp/howto/Lego/)
