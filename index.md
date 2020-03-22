@@ -240,7 +240,7 @@ Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) proje
   - A tool for experimenting with robotic control techniques, providing a framework which enables researchers to develop controller programs for the Lego MindStorms RCX in Java, and test them either in simulation or in a real RCX robot with no alteration to the controller code.
 * [LegoSim](https://github.com/BrickBot/LegoSim)
   - A UNIX-based Simulator for LegOS/BrickOS with an Applet-GUI
-* [EmuLegOS}(https://github.com/BrickBot/EmuLegOS)
+* [EmuLegOS](https://github.com/BrickBot/EmuLegOS)
   - An emulator for the LegOS (BrickOS) operating system used on the Lego MindStorms RCX.
 
 ## Integrations
