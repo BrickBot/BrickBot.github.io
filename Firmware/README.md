@@ -1,5 +1,5 @@
 # Archived Firmware Images for the Lego MindStorms RCX
-NOTE: This is __not__ a repository for current firmware images;
+NOTE: This is _not_ a repository for current firmware images;
 for the latest firmware versions for a given project, please check that respective project's site under the GitHub BrickBot organization.
 
 

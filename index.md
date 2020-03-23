@@ -23,6 +23,16 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 
 * * *
 
+# Index of Resources
+* [Designs](https://github.com/BrickBot/BrickBot.github.io/tree/master/Designs):  Links and files for various robot designs
+* [Documentation](https://github.com/BrickBot/BrickBot.github.io/tree/master/Documentation):  Official techincal documentation from Lego and Renesas
+* [Education](https://github.com/BrickBot/BrickBot.github.io/tree/master/Education/):  Resources for those using the RCX in education
+* [Firmware](https://github.com/BrickBot/BrickBot.github.io/tree/master/Firmware):  Archive of notable RCX firmware images
+* [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
+* [Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
+
+* * *
+
 # Index of Repositories
 
 ## Development Suites
@@ -116,6 +126,8 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - A little package for controling a Lego MindStorms RCX system directly from Squeak, inspired by the BotKit interface.
 * [TclRCX](https://github.com/BrickBot/TclRCX)
   - An extension to the [Tcl interpreter](https://www.tcl.tk/) to let you issue commands to the RCX interactively or compile bytecode programs, download, and run them
+* [pyRCX](https://github.com/BrickBot/pyRCX)
+  - A collection of Python scripts and components for the Lego MindStorms RCX
 * [AForge.NET](https://github.com/BrickBot/AForge.NET) **_Tethered Only; No Stand-Alone Capabilities_**
   - A C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
 * [InteractiveVB](https://github.com/BrickBot/InteractiveVB) **_Tethered Only; No Stand-Alone Capabilities_**
@@ -208,8 +220,6 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
   - A library supporting IR communication over the Lego MindStorms IR tower. It can be used from C programs on Posix compliant platforms, supports multiple protocols and is designed to be a replacement for lnpd.
 * [lnpd](https://github.com/BrickBot/lnpd)
   - The LegOS Network Protocol Daemon, which allows for communication between brickOS-powered robots and host computers.
-* [pylnp](https://github.com/BrickBot/pylnp)
-  - A Python extension for LNP that enables writing Python scripts on Linux that talk to LNP-compatible applications on the RCX via the IR link
 * [WinLNP-USB](https://github.com/BrickBot/WinLNP-USB)
   - LNP over USB for Windows devices
 * [RCX LNP LIB](https://github.com/BrickBot/RCX-LNP-LIB)
@@ -262,8 +272,13 @@ For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapte
 ## Windows
 * [RCX USB Tower Support, by Lego Engineering](http://www.legoengineering.com/rcx-usb-tower-support/)
 * [Philo’s Archive of Lego MindStorms RCX Updates](https://www.philohome.com/sdk25/sdk25.htm)
-* [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)
-  - [VcXsrv](http://vcxsrv.sf.net/) X-server for Windows
+* [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about)
+  - To run graphical Linux applications if using the Ubuntu bash shell
+    1. Install [VcXsrv X-server for Windows](http://vcxsrv.sf.net/)
+    2. Configure bash to use the local X server by updating `~/.bashrc`
+    3. Run `echo "export DISPLAY=localhost:0.0" >> ~/.bashrc` to append the update to the `~/.bashrc` file
+    4. To make the changes take effect, restart bash or run `. ~/.bashrc`
+    5. For additional details, see [Running Graphical Linux Applications on WSL](https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/)
 
 ## Linux
 * [Linux Online - Lego Mindstorm with Linux Mini-HOWTO](http://www.linux.org/docs/ldp/howto/Lego/)
@@ -313,31 +328,6 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [Mindstorms in Education](http://www.crynwr.com/lego-robotics/education.html)
 * [NASA Robotics - Robotics Alliance Project](http://robotics.nasa.gov/)
    -[Robotics Curriculum Clearinghouse - Lesson Plans and Educational Resources](http://robotics.nasa.gov/rcc/)
-
-## Robot Designs
-* [Philo Designs](https://www.philohome.com/mindstorms.htm)
-* [A Lego-robot with camera controlled by Matlab overview](http://web.abo.fi/fak/tkf/rt/robot/index.php?content=0)
-* [Adder](http://web.archive.org/web/20010609003439/http://prelude.psy.umontreal.ca/~cousined/lego/1-Varia/adder/adder.html)
-* [Andreas Junghans - Lego Mindstorms](http://www.lucid-cake.net/mindstorms/index_en.html)
-* [Ben Jacksons Mindstorms Creations](http://www.ben.com/LEGO/rcx/)
-* [Chattanooga Robotics Web Site - BOT-BOX](http://www.chattabot.org/botbox.html)
-* [Creating a Spider Robot using LEGO-Mindstorms](http://web.archive.org/web/20080206072202/http://schalburg.homepage.dk/Spider/Spider.html)
-* [Design and development of LEGO Mindstorms based nomadic services](http://telemedicine.ewi.utwente.nl/education/completed_master_assignments/vantol_small.pdf)
-* [format c: Robots Rocket Launcher](http://www.formatc.somee.com/roborocket.asp)
-* [JP Brown’s Serious LEGO](http://jpbrown.i8.com/)
-* [Lego Mindstorms](http://www.marioferrari.org/lego_mindstorm.html)
-* [LEGO Models and Robotics](http://www.hempeldesigngroup.com/lego/index.html)
-* [Lego RCX LIDAR Station Isotopia](http://xenon.arcticus.com/lego-rcx-lidar-station)
-* [Lego Robots Tips and Tricks](http://people.cs.uu.nl/markov/lego/tips/index.html)
-* [Lego Technic Home page](http://www.mapageweb.umontreal.ca/cousined/lego/)
-* [LIDAR Display for Lego RCX LIDARStation Isotopia](http://xenon.arcticus.com/lidar-display-lego-rcx-lidarstation)
-* [Mark Crosbies Homepage](http://www.mastincrosbie.com/mark/lego/BrickOS/BrickOS.html)
-* [Mark’s LEGO NXT Projects](http://mastincrosbie.com/Marks_LEGO_projects/LEGO_Projects.html)
-* [Peter Smolders’ Lego Hexapod](https://www.petersmolders.net/projects/robots/lego-hexapod/)
-* [RCX-Project](http://cs.uni-salzburg.at/~ck/teaching/ESE-Winter-2004/rcxrobot/)
-* [Robert Munafos LEGO(r) Creations at MROB](http://www.mrob.com/pub/lego/)
-* [The Straight and Narrow - OReilly Media](http://www.oreillynet.com/pub/a/network/2000/05/22/LegoMindstorms.html)
-* [Three Speed Automatic Transmission](http://www.last-outpost.com/~malakai/lego/)
 
 ## Sensors and Multiplexors
 * [Philo: Lego MindStorms Compatible Sensor Devices](https://www.philohome.com/sensors.htm)

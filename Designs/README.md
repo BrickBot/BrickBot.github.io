@@ -1,0 +1,28 @@
+# Robot Designs
+
+
+## Links to Other Designs
+* [Philo Designs](https://www.philohome.com/mindstorms.htm)
+* [A Lego-robot with camera controlled by Matlab overview](http://web.abo.fi/fak/tkf/rt/robot/index.php?content=0)
+* [Adder](http://web.archive.org/web/20010609003439/http://prelude.psy.umontreal.ca/~cousined/lego/1-Varia/adder/adder.html)
+* [Andreas Junghans - Lego Mindstorms](http://www.lucid-cake.net/mindstorms/index_en.html)
+* [Ben Jacksons Mindstorms Creations](http://www.ben.com/LEGO/rcx/)
+* [Chattanooga Robotics Web Site - BOT-BOX](http://www.chattabot.org/botbox.html)
+* [Creating a Spider Robot using LEGO-Mindstorms](http://web.archive.org/web/20080206072202/http://schalburg.homepage.dk/Spider/Spider.html)
+* [Design and development of LEGO Mindstorms based nomadic services](http://telemedicine.ewi.utwente.nl/education/completed_master_assignments/vantol_small.pdf)
+* [format c: Robots Rocket Launcher](http://www.formatc.somee.com/roborocket.asp)
+* [JP Brown’s Serious LEGO](http://jpbrown.i8.com/)
+* [Lego Mindstorms](http://www.marioferrari.org/lego_mindstorm.html)
+* [LEGO Models and Robotics](http://www.hempeldesigngroup.com/lego/index.html)
+* [Lego RCX LIDAR Station Isotopia](http://xenon.arcticus.com/lego-rcx-lidar-station)
+* [Lego Robots Tips and Tricks](http://people.cs.uu.nl/markov/lego/tips/index.html)
+* [Lego Technic Home page](http://www.mapageweb.umontreal.ca/cousined/lego/)
+* [LIDAR Display for Lego RCX LIDARStation Isotopia](http://xenon.arcticus.com/lidar-display-lego-rcx-lidarstation)
+* [Mark Crosbies Homepage](http://www.mastincrosbie.com/mark/lego/BrickOS/BrickOS.html)
+* [Mark’s LEGO NXT Projects](http://mastincrosbie.com/Marks_LEGO_projects/LEGO_Projects.html)
+* [Peter Smolders’ Lego Hexapod](https://www.petersmolders.net/projects/robots/lego-hexapod/)
+* [RCX-Project](http://cs.uni-salzburg.at/~ck/teaching/ESE-Winter-2004/rcxrobot/)
+* [Robert Munafos LEGO(r) Creations at MROB](http://www.mrob.com/pub/lego/)
+* [The Straight and Narrow - OReilly Media](http://www.oreillynet.com/pub/a/network/2000/05/22/LegoMindstorms.html)
+* [Three Speed Automatic Transmission](http://www.last-outpost.com/~malakai/lego/)
+* [Differential Wheeled Mobile Robot System](http://www.smashingrobotics.com/how-to-build-a-simple-differential-wheeled-mobile-robot-system/)
