@@ -34,7 +34,7 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * [Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
 
 ## Missing/Wanted
-For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?
+For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?  If so, let us know!
 * [Visual Storms / Sharp Storms](http://medialab.di.unipi.it/Project/visualstorms/resources.html)
   - A system capable of translate .NET executables in programs that can be executed on the Lego Mindstorms RCX without having to change its firmware
 * [MindStorms Tools](https://web.archive.org/web/20120130101715/http://ddi.uni-paderborn.de/index.php?id=4800&L=1), which included the following individual tools:
