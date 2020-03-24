@@ -1,7 +1,7 @@
 # Welcome to BrickBot!
 The page provides an index to the repositories comprising the BrickBot organization, as well as links to related resources.
 
-All projects imported to GitHub have been curated to varying degrees as part of the import process.
+All projects imported to this GitHub organization have been curated to varying degrees as part of the import process.
 Please feel free to join and contribute in whatever way you can, whether that might be cleaning up
 or updating documenation, converting text files to Markdown, setting up wikis, or updating code to
 work with the latest host platforms.
@@ -24,12 +24,27 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * * *
 
 # Index of Resources
+
+## Available
 * [Designs](https://github.com/BrickBot/BrickBot.github.io/tree/master/Designs):  Links and files for various robot designs
 * [Documentation](https://github.com/BrickBot/BrickBot.github.io/tree/master/Documentation):  Official techincal documentation from Lego and Renesas
 * [Education](https://github.com/BrickBot/BrickBot.github.io/tree/master/Education/):  Resources for those using the RCX in education
 * [Firmware](https://github.com/BrickBot/BrickBot.github.io/tree/master/Firmware):  Archive of notable RCX firmware images
 * [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
 * [Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
+
+## Missing/Wanted
+For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?
+* [Visual Storms / Sharp Storms](http://medialab.di.unipi.it/Project/visualstorms/resources.html)
+  - A system capable of translate .NET executables in programs that can be executed on the Lego Mindstorms RCX without having to change its firmware
+* [MindStorms Tools](https://web.archive.org/web/20120130101715/http://ddi.uni-paderborn.de/index.php?id=4800&L=1), which included the following individual tools:
+  - Together MindstormsTool (TMT): modul for the Together ControlCenter 4.0 or higher
+  - BlueJ MindstormsTool (BJMT): extension for the BlueJ integrated environment 1.3 or higher
+  - Java MindstormsTool (JMT): the MindstormsTool with an own source code editor
+  - Small MindstormsTool (SMT): the stand alone version of the tool
+* [MindControl](http://web.archive.org/web/20020803004941/http://homepages.svc.fcj.hvu.nl/brok/legomind/robo/)
+  - A Visual Basic program for controlling a Lego MindStorms RCX or Cybermaster unit
+
 
 * * *
 
