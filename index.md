@@ -52,14 +52,14 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
 ## Help Needed
 Interested in helping out?  Below are a few of the many ways that you can contribute.
 1. Debian Packaging:  With Debian packages, we are able to support a reasonable cross-section of systems, including Debian/Ubuntu Linux, Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
-   a. [nqc](https://github.com/BrickBot/nqc)
-   b. [VisualNQC](https://github.com/BrickBot/VisualNQC)
-   c. [binutils-cil](https://github.com/BrickBot/binutils-cil) for h8300-hms
-   d. [gcc-cil](https://github.com/BrickBot/gcc-cil) for h8300-hms with g++
-   c. [brickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
-   d. [brickEmu](https://github.com/BrickBot/brickEmu)
-   e. [leJOS-RCX](https://github.com/BrickBot/leJOS-RCX)
-   f. [Intellejos](https://github.com/BrickBot/Intellejos)
+   1. [nqc](https://github.com/BrickBot/nqc)
+   2. [VisualNQC](https://github.com/BrickBot/VisualNQC)
+   3. [binutils-cil](https://github.com/BrickBot/binutils-cil) for h8300-hms
+   4. [gcc-cil](https://github.com/BrickBot/gcc-cil) for h8300-hms with g++
+   5. [brickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
+   6. [brickEmu](https://github.com/BrickBot/brickEmu)
+   7. [leJOS-RCX](https://github.com/BrickBot/leJOS-RCX)
+   8. [Intellejos](https://github.com/BrickBot/Intellejos)
 2. ReadMe/documentation cleanup and formatting:  The vast majority of these projects were developed before Markdown and GitHub conventions were developed
 3. Testing/validation of projects on current platforms
 4. Issues that have been filed within individual projects
