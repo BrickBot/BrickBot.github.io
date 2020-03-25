@@ -1,7 +1,15 @@
 # Educational Resources
 
-## Workshop Plans
-Learning to Program with the RCX and leJOS (5-Lesson Series)
+## In This Repository Folder
+* Workshop Plans: Learning to Program with the RCX and leJOS (5-Lesson Series)
+
+
+## Educational Resources
+* [LEGO Education Home](http://www.lego.com/education/)
+* [Lego Engineering Home](http://www.legoengineering.com/)
+* [Mindstorms in Education](http://www.crynwr.com/lego-robotics/education.html)
+* [NASA Robotics - Robotics Alliance Project](http://robotics.nasa.gov/)
+   -[Robotics Curriculum Clearinghouse - Lesson Plans and Educational Resources](http://robotics.nasa.gov/rcc/)
 
 ## Links to Education-Oriented Challenges
 *[Collection by Linda Hamilton (via archive.org)](https://web.archive.org/web/20190911084042/https://www.marshall.edu/LEGO/plans.html)

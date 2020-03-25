@@ -31,14 +31,17 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * [Education](https://github.com/BrickBot/BrickBot.github.io/tree/master/Education/):  Resources for those using the RCX in education
 * [Firmware](https://github.com/BrickBot/BrickBot.github.io/tree/master/Firmware):  Archive of notable RCX firmware images
 * [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
-* [Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
+* [Other Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
+  - For general Lego software from LEGO:  [LEGO Digital Designer](https://www.lego.com/en-us/ldd)
+  - For general third-party Lego software:  [LDraw.org Third-Party Software](https://ldraw.org/downloads-2/third-party-software.html)  (also visit the main [LDraw website](https://ldraw.org/) while there)
+  - For Robotics Software from LEGO:  [Brick Factory](https://www.brickfactory.info/iso/)
 
 ## Missing/Wanted
 For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?
 If so, please let us know by [posting a new issue here](https://github.com/BrickBot/BrickBot.github.io/issues/new/choose)!
 * [Visual Storms / Sharp Storms](http://medialab.di.unipi.it/Project/visualstorms/resources.html) <sup>↗</sup>
   - A system capable of translate .NET executables in programs that can be executed on the Lego Mindstorms RCX without having to change its firmware
-  - Additional known information may be found in this [LUGNET post](https://news.lugnet.com/robotics/rcx/?n=2963) <sup>↗</sup>
+  - Additional known information in this [LUGNET post](https://news.lugnet.com/robotics/rcx/?n=2963) <sup>↗</sup>
 * [MindStorms Tools](https://web.archive.org/web/20120130101715/http://ddi.uni-paderborn.de/index.php?id=4800&L=1), <sup>↗</sup>  which included the following individual tools:
   - Together MindstormsTool (TMT): modul for the Together ControlCenter 4.0 or higher
   - BlueJ MindstormsTool (BJMT): extension for the BlueJ integrated environment 1.3 or higher
@@ -46,6 +49,20 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
   - Small MindstormsTool (SMT): the stand alone version of the tool
 * Phantom: An alterative to Spirit.ocx
 
+## Help Needed
+Interested in helping out?  Below are a few of the many ways that you can contribute.
+1. Debian Packaging:  With Debian packages, we are able to support a reasonable cross-section of systems, including Debian/Ubuntu Linux, Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
+   a. [nqc](https://github.com/BrickBot/nqc)
+   b. [VisualNQC](https://github.com/BrickBot/VisualNQC)
+   c. [binutils-cil](https://github.com/BrickBot/binutils-cil) for h8300-hms
+   d. [gcc-cil](https://github.com/BrickBot/gcc-cil) for h8300-hms with g++
+   c. [brickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
+   d. [brickEmu](https://github.com/BrickBot/brickEmu)
+   e. [leJOS-RCX](https://github.com/BrickBot/leJOS-RCX)
+   f. [Intellejos](https://github.com/BrickBot/Intellejos)
+2. ReadMe/documentation cleanup and formatting:  The vast majority of these projects were developed before Markdown and GitHub conventions were developed
+3. Testing/validation of projects on current platforms
+4. Issues that have been filed within individual projects
 
 * * *
 
@@ -75,15 +92,15 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
 * **Historical Reference Only / Superceded or No Longer Available**
   - [RCX Command Center](https://web.archive.org/web/20070204040037/http://www.cs.uu.nl/people/markov/lego/) <sup>↗</sup>
     + The predecessor to Bricx Command Center
-  - [BrickCommand2](https://web.archive.org/web/20091023045530/http://www.geocities.com/Area51/Nebula/8488/lego.html)
+  - [BrickCommand2](https://web.archive.org/web/20091023045530/http://www.geocities.com/Area51/Nebula/8488/lego.html) <sup>↗</sup>
     + A programming tool for Lego MindStorms RCX and Lego Cybermaster systems, offering more control over the brick than the software that comes with each system.
     + The setup installer was broken up into 3 separate zip file downloads, plus an additional update download; unfortunately, only 2 of the 3 setup zip files appear to have survived.
-  - [PBrickDev](https://web.archive.org/web/20091024223614/http://geocities.com/pbrickdev/index.html)
+  - [PBrickDev](https://web.archive.org/web/20091024223614/http://geocities.com/pbrickdev/index.html)  <sup>↗</sup>
     + A complete programming environment for the RCX that used a graphical interface for programming, instead of writing code
     + The latest version used the Phantom.dll COM component by "Fenestra Software" instead of Lego's Spirit.ocx
-  - [MindControl](http://web.archive.org/web/20020803004941/http://homepages.svc.fcj.hvu.nl/brok/legomind/robo/)
+  - [MindControl](http://web.archive.org/web/20020803004941/http://homepages.svc.fcj.hvu.nl/brok/legomind/robo/) <sup>↗</sup>
     + A Visual Basic program for controlling a Lego MindStorms RCX or Cybermaster unit
-  - [NQCEdit](http://www.bitling.com/nqcedit.htm)
+  - [NQCEdit](http://www.bitling.com/nqcedit.htm) <sup>↗</sup>
     + Little is currently known about this software; not even a website archive appears to have survived.
 
 ## Tools and Utilities
@@ -289,13 +306,6 @@ Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) proje
 
 * * *
 
-# RCX Accessories
-
-## Power
-For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapter part # 9833.
-
-* * *
-
 # Host OS Setup Help
 
 ## Windows
@@ -330,6 +340,11 @@ For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapte
 # RCX Links and Resources
 The links below are a mostly uncurated collection of RCX-related websites and postings.  To retrieve some links, it may be necessary to use [archive.org](archive.org).
 
+## Communities
+* [RCX Subforum on LUGNET](https://news.lugnet.com/robotics/rcx/)
+* [r/mindstorms](http://mindstorms.reddit.com/): General to Lego MindStorms, but does include some RCX topics
+* [“Bricks” StackExchange](https://bricks.stackexchange.com/): General to Lego, but does include some RCX discussion
+
 ## Information and FAQs
 * [About the Lego MindStorms Robotics Invention System](https://web.archive.org/web/20060223231555/http://www.pulsar.org/archive/stormwatch/AboutLegoMindstorms.html)
 * [Expanded MindStorms FAQ at MROB](http://www.mrob.com/pub/lego/msfaq.html)
@@ -351,13 +366,6 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [How to LNP](http://www.cs.brown.edu/courses/cs148/old/2004fall/brickOS/HOWTO/lnp.html)
 * [Notes on LNP](https://web.archive.org/web/20040627230632/http://www.docs.uu.se/docs/undergrad/instances/spring2002/RTSystemDvpMnp/assignments/notes_on_lnp.html)
 * [Lego RCX Firmware Disassembler](http://web.archive.org/web/20011029155757/http://www.geocities.com/ResearchTriangle/Thinktank/4411/)
-
-## Education
-* [LEGO Education Home](http://www.lego.com/education/)
-* [Lego Engineering Home](http://www.legoengineering.com/)
-* [Mindstorms in Education](http://www.crynwr.com/lego-robotics/education.html)
-* [NASA Robotics - Robotics Alliance Project](http://robotics.nasa.gov/)
-   -[Robotics Curriculum Clearinghouse - Lesson Plans and Educational Resources](http://robotics.nasa.gov/rcc/)
 
 ## Sensors and Multiplexors
 * [Philo: Lego MindStorms Compatible Sensor Devices](https://www.philohome.com/sensors.htm)
@@ -398,6 +406,15 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 
 [Markdown-Comments]: # (https://stackoverflow.com/a/32190021)
 
+[Private Download Link for Lego.NET]: # (http://www.dcl.hpi.uni-potsdam.de/research/lego.NET/download.htm?&uid=002dd0fd1cfe6c5608f41fc466b25aae)
+
+
+* * *
+
+# RCX Accessories
+
+## Power
+For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapter part # 9833.
 
 * * *
 
@@ -414,3 +431,6 @@ links are provided as a reference.  Note that the vendors might no longer be off
 * [RCX PicoBlocks, by Playful Invention](https://www.playfulinvention.com/rcx/)
 * [RoboLab for LabVIEW](http://www.legoengineering.com/robolab-for-labview/)
   - [LabVIEW](https://decibel.ni.com/content/docs/DOC-15615)
+
+## General Lego
+* [BrickLink](https://www.bricklink.com/)
