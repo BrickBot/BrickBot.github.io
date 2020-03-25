@@ -34,16 +34,16 @@ the open source [GitAhead](http://gitahead.com/) project is suggested.
 * [Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
 
 ## Missing/Wanted
-For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?  If so, let us know!
-* [Visual Storms / Sharp Storms](http://medialab.di.unipi.it/Project/visualstorms/resources.html)
+For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?
+If so, please let us know by [posting a new issue here](https://github.com/BrickBot/BrickBot.github.io/issues/new/choose)!
+* [Visual Storms / Sharp Storms](http://medialab.di.unipi.it/Project/visualstorms/resources.html) <sup>↗</sup>
   - A system capable of translate .NET executables in programs that can be executed on the Lego Mindstorms RCX without having to change its firmware
-* [MindStorms Tools](https://web.archive.org/web/20120130101715/http://ddi.uni-paderborn.de/index.php?id=4800&L=1), which included the following individual tools:
+* [MindStorms Tools](https://web.archive.org/web/20120130101715/http://ddi.uni-paderborn.de/index.php?id=4800&L=1), <sup>↗</sup>  which included the following individual tools:
   - Together MindstormsTool (TMT): modul for the Together ControlCenter 4.0 or higher
   - BlueJ MindstormsTool (BJMT): extension for the BlueJ integrated environment 1.3 or higher
   - Java MindstormsTool (JMT): the MindstormsTool with an own source code editor
   - Small MindstormsTool (SMT): the stand alone version of the tool
-* [MindControl](http://web.archive.org/web/20020803004941/http://homepages.svc.fcj.hvu.nl/brok/legomind/robo/)
-  - A Visual Basic program for controlling a Lego MindStorms RCX or Cybermaster unit
+* Phantom: An alterative to Spirit.ocx
 
 
 * * *
@@ -80,6 +80,8 @@ For a few projects known to exist, the source no longer seems to be available.  
   - [PBrickDev](https://web.archive.org/web/20091024223614/http://geocities.com/pbrickdev/index.html)
     + A complete programming environment for the RCX that used a graphical interface for programming, instead of writing code
     + The latest version used the Phantom.dll COM component by "Fenestra Software" instead of Lego's Spirit.ocx
+  - [MindControl](http://web.archive.org/web/20020803004941/http://homepages.svc.fcj.hvu.nl/brok/legomind/robo/)
+    + A Visual Basic program for controlling a Lego MindStorms RCX or Cybermaster unit
   - [NQCEdit](http://www.bitling.com/nqcedit.htm)
     + Little is currently known about this software; not even a website archive appears to have survived.
 
@@ -127,6 +129,12 @@ For a few projects known to exist, the source no longer seems to be available.  
   - **Add-Ins Supporting NQC**
     + [nqc.vim](https://github.com/BrickBot/nqc.vim)
       * gVim Menus for NQC (Not Quite C, version 2.3 r1 and newer) for the Lego MindStorms RCX
+* Visual Storms / Sharp Storms  ** _MISSING/WANTED_ **
+  - **About**
+    + A system capable of translate .NET executables in programs that can be executed on the Lego Mindstorms RCX without having to change its firmware
+  - **Toolchain**
+    + [CLIFileRW](https://github.com/BrickBot/CLIFileRW)
+      * A .NET library developed for the CodeBricks research project that is specifically designed to read and rewrite .NET binaries and was used in conjuction with the Visual Storms / Sharp Storms projects
 * [ASML: Asynchronous State Machine Language](https://github.com/BrickBot/ASML)
   - Execute Asynchronous State Machine (ASM) charts as RCX programs
 * [Legolog](https://github.com/BrickBot/Legolog)
@@ -167,17 +175,22 @@ For a few projects known to exist, the source no longer seems to be available.  
 * [BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo)
   - **About**
     + An alternative RCX operating system and firmware cloning brickOS. The kernel was written from scratch for better performance, but to the average brickOS programmer, changes should be transparent.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
-    + Built in support is now included for the following programming languages:
-      * C / C++
-      * XS:Lisp
-      * Esterel (_installation of prerequisties is necessary in order to compile programs for the RCX_)
-      * Luster  (_TODO_)
-      * SCADE  (_TODO_)
-      * .NET  (_TODO_)
+    + Additional projects have added support for other programming languages, including the following::
+      * C / C++  (_built-in_)
+      * XS:Lisp  (_mostly built-in; additional work is needed to better support user programs_)
+      * Esterel (_installation of binary prerequisties is necessary in order to compile programs for the RCX_)
+      * Luster  (_currently a separate project_)
+      * SCADE  (_currently a separate project_)
+      * .NET  (_currently a separate project, [Lego.NET](https://www.dcl.hpi.uni-potsdam.de/research/lego.NET/)_)
   - **Add-ons and Extensions**
     + [scLego](https://github.com/BrickBot/scLego)
       * An Esterel back-end for Lego C with BrickOS-Bibo
       * Esterel demo programs are already included with BrickOS-Bibo; install the Esterel compiler and this back-end extension to be able to build and use them
+  - ** Toolchain **
+    + [binutils-cil](https://github.com/BrickBot/binutils-cil)
+        * Used in conjunction with the gcc-cil project to add CIL capabilties, for use with brickOS-bibo and Lego.NET
+    + [gcc-cil](https://github.com/BrickBot/gcc-cil)
+        * An "official" gcc branch that adds CIL capabilities to gcc, for use with brickOS-bibo and Lego.NET
 * [leJOS](https://github.com/BrickBot/leJOS-RCX)
   - **About**
     + A tiny Java Virtual Machine for the Lego MindStorms RCX, containing a VM for Java bytecodes and additional software to load and run Java programs.
@@ -326,6 +339,7 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 
 ## Human Interest
 * [Geeks in Toyland](https://www.wired.com/2006/01/geeks-in-toyland/)
+* [Is Iron Man an RCX Robot?](https://deeperdesign.wordpress.com/2010/02/26/is-iron-man-made-of-lego/)
 
 ## Technical Resources
 [Additional list of RCX resources](http://user.it.uu.se/~tobiasa/lego-resources.html), some of which are no longer available without use of archive.org
