@@ -52,10 +52,10 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
 ## Help Needed
 Interested in helping out?  Below are a few of the many ways that you can contribute.
 1. Debian Packaging:  With Debian packages, we are able to support a reasonable cross-section of systems, including Debian/Ubuntu Linux, Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
-   1. [nqc](https://github.com/BrickBot/nqc)
+   1. [NQC](https://github.com/BrickBot/nqc)
    2. [VisualNQC](https://github.com/BrickBot/VisualNQC)
    3. [binutils-cil](https://github.com/BrickBot/binutils-cil) for h8300-hms
-   4. [gcc-cil](https://github.com/BrickBot/gcc-cil) for h8300-hms with g++
+   4. [gcc-cil](https://github.com/BrickBot/gcc-cil) for h8300-hms, with g++
    5. [brickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
    6. [brickEmu](https://github.com/BrickBot/brickEmu)
    7. [leJOS-RCX](https://github.com/BrickBot/leJOS-RCX)
@@ -169,8 +169,8 @@ Interested in helping out?  Below are a few of the many ways that you can contri
   - An extension to the [Tcl interpreter](https://www.tcl.tk/) to let you issue commands to the RCX interactively or compile bytecode programs, download, and run them
 * [pyRCX](https://github.com/BrickBot/pyRCX)
   - A collection of Python scripts and components for the Lego MindStorms RCX
-* [AForge.NET](https://github.com/BrickBot/AForge.NET) **_Tethered Only; No Stand-Alone Capabilities_**
-  - A C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
+* [Ghost.NET](https://github.com/BrickBot/Ghost.NET) **_Tethered Only; No Stand-Alone Capabilities_**
+  - A .NET wrapper for Lego’s Ghost library, supporting tethered interaction with the RCX
 * [InteractiveVB](https://github.com/BrickBot/InteractiveVB) **_Tethered Only; No Stand-Alone Capabilities_**
   - Interactive control of a Lego Mindstorm RCX with Visual Basic
 * [RCX Java API](https://github.com/BrickBot/RCX-Java-API) **_Tethered Only; No Stand-Alone Capabilities_**
@@ -299,9 +299,12 @@ Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) proje
 * [EmuLegOS](https://github.com/BrickBot/EmuLegOS)
   - An emulator for the LegOS (BrickOS) operating system used on the Lego MindStorms RCX.
 
-## Integrations
-* [RCX-PI](https://github.com/BrickBot/RCX-PI)
-  - An experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development.
+## Projects for Interacting with Other Devices
+These projects are currently hosted in external repositories but can be imported if there is interest
+* [RCX-PI](https://github.com/terryspring/RCX-PI) <sup>↗</sup> (leJOS-based): an experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development
+* [RoboRemote](https://github.com/hanswannop/RoboRemote) <sup>↗</sup> (leJOS-based): Remotely contol an RCX using an attached smartphone, light sensors, leJOS, WebSockets, and Go
+* [RemoteMindStorm](https://github.com/JSFernandes/RemoteMindstorm) <sup>↗</sup> (NQC-based):  Control an RCX via LeapMotion and voice, using a basic messaging scheme
+  - Includes a number of binary *.jar and *.so files in version control
 
 
 * * *
@@ -381,16 +384,22 @@ The links below are a mostly uncurated collection of RCX-related websites and po
   - Temperature Sensor
   - Resisotr Switch pad
   - Motor/Light Block
-  - Motor/Sensor Expander – 6 motor ports!
+  - Motor/Sensor Expander – 6 motor ports
 
-## Hardware Hacks
+## Hardware Hacks: General
 * [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
-* [IR_tower_japan](http://web.archive.org/web/20060207165221/http://oase.uci.kun.nl/~mientki/Lego_Knex/Lego_electronica/IR_tower/IR_tower.htm)
 * [Lego Rotation Sensor Internals and Fix](http://www.philohome.com/sensors/legorot.htm)
-* [RCX Power Booster Schematic](http://news.lugnet.com/robotics/?n=22861)
-* [RCXCAM_Journal](http://www.convict.lu/Jeunes/RCXCam/RCXCam_Journal.htm)
-* [Smeagol Sub-projects Mars rover](http://www.mobnets.rwth-aachen.de/smeagol/sub-mars.php)
-* [Wireless Radio Communication](http://www.robotics.sk/maine.php?page=/projects/rcxbt/)
+* [RCX Motor Power Booster Schematic with RCX Variable-Speed Control](http://news.lugnet.com/robotics/?n=22861)
+
+## Hardware Hacks: Communication
+[BrickOS-Bibo Patch # 33](https://news.lugnet.com/robotics/rcx/legos/?n=4057), incorporated by Matthew Sheets, included Bluetooth-facilitating capabilities
+* [Serial IR Tower Hacks](http://web.archive.org/web/20060207165221/http://oase.uci.kun.nl/~mientki/Lego_Knex/Lego_electronica/IR_tower/IR_tower.htm)
+* [Smeagol Sub-projects Mars rover](https://web.archive.org/web/20080324192255/http://www.mobnets.rwth-aachen.de/smeagol/sub-mars.php)
+* [Wireless Radio Communication](http://www.robotics.sk/maine.php?page=/projects/rcxbt/)Bluetooth
+* [Hardware Hacks to Setup a Bluetooth Connection](https://web.archive.org/web/20051207031919/http://www-date.uni-paderborn.de/pub/people/dasas/Beh03.pdf)  (_in German_)
+* [Board-Soldering Communication Hacks](http://www.convict.lu/Jeunes/RCXCam/RCXCam_Journal.htm)
+* [Use an Audio Output Jack to Send IR Commands](https://github.com/legokichi/webRCX)
+
 
 ## Firmware/Languages Lists
 * [Quick Start Guide](https://web.archive.org/web/20090502162540/http://www.ee.adfa.edu.au/staff/hrp/teaching/LegoMindstorm/LegoHelpHRP.html)
