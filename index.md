@@ -21,6 +21,26 @@ Conversely, there is not currenly a version of GitHub Desktop for 32-bit Windows
 For those wanting an alternative to GitHub Desktop that also provides a 32-bit distribution,
 the open source [GitAhead](http://gitahead.com/) project is suggested.
 
+
+## Quick Start
+For just those interested in a "quick start" that works reasonably well on current computer setups, I would suggest the following combination:
+* [NQC](https://github.com/BrickBot/nqc):  Base programming tool
+  - Uses the original Lego firmware
+  - Executables available for Windows, Mac, and Linux
+* [VisualNQC](https://github.com/BrickBot/VisualNQC):  An iconic programming tool similar to—and potentially replacing—Lego’s original Robotics Invention System software
+  - Generates NQC code as output, so can be used to transition from iconic program to text-based programming
+  - Uses NQC to compile and deploy, which must also be installed
+  - Written in Java, so runs on multiple platforms
+  - Formerly known as fUNSoftware, it has been updated to better work with larger screen sizes
+* IR Tower
+  - Linux:  Lego USB tower drivers have been included, so either the serial or USB IR tower may be used, regardless of CPU architecture or bitness
+    + A Raspberry PI can be used, which educational scenarios in particular might find advantageous
+  - Windows:  The short and simple—
+    + 32-bit:  Either the serial IR tower or—after installing the drivers—the USB IR tower may be used
+    + 64-bit:  Only works with the serial IR tower; if your computer does not have a serial port, you will need to use a USB-to-serial adapter
+
+For the more technically inclined, or for more advanced educational scenarios, we strongly encourage reviewing the numerous other options available across this organization’s repositories.
+
 * * *
 
 # Index of Resources
@@ -300,7 +320,7 @@ Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) proje
   - An emulator for the LegOS (BrickOS) operating system used on the Lego MindStorms RCX.
 
 ## Projects for Interacting with Other Devices
-These projects are currently hosted in external repositories but can be imported if there is interest
+These projects are currently hosted in external repositories but can be transferred or imported if there is interest
 * [RCX-PI](https://github.com/terryspring/RCX-PI) <sup>↗</sup> (leJOS-based): an experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development
 * [RoboRemote](https://github.com/hanswannop/RoboRemote) <sup>↗</sup> (leJOS-based): Remotely contol an RCX using an attached smartphone, light sensors, leJOS, WebSockets, and Go
 * [RemoteMindStorm](https://github.com/JSFernandes/RemoteMindstorm) <sup>↗</sup> (NQC-based):  Control an RCX via LeapMotion and voice, using a basic messaging scheme
