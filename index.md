@@ -96,6 +96,8 @@ Interested in helping out?  Below are a few of the many ways that you can contri
   - [BricxCC](http://bricxcc.sourceforge.net/) <sup>↗</sup>
     + An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
     + Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
+  - [MacNQC](https://github.com/BrickBot/MacNQC)
+    + A stand-alone version of the NQC compiler for the Macintosh OS
   - [Interactive C](https://web.archive.org/web/20171101054739/http://www.kipr.org/products/interactive-c) <sup>↗</sup>
     + A program which uses a modified version of ANSI C with several libraries and features that allow hobbyists to program small robotics platforms.
     + Able to compile on the fly (c.f. [Wikipedia](https://en.wikipedia.org/wiki/Interactive_C))
