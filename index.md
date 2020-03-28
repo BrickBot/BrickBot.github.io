@@ -156,7 +156,7 @@ Interested in helping out?  Below are a few of the many ways that you can contri
     + Control Lego MindStorms RCX robots from afar (e.g. over the Internet)
 
 ## Extensions Built on the Lego Firmware
-* [NQC (Not Quite C)](https://github.com/BrickBot/nqc) ![NQC CI](https://github.com/BrickBot/nqc/workflows/NQC%20CI/badge.svg): A programming language for several Lego MindStorms products, including the RCX, CyberMaster, and Scout
+* [NQC (Not Quite C)](https://github.com/BrickBot/nqc): A programming language for several Lego MindStorms products, including the RCX, CyberMaster, and Scout
   - **Text-Based Programming**
     + [NQC-libs](https://github.com/BrickBot/nqc-libs)
       * A collection of NQC libraries from various sources, plus some programs as well as full NQC tutorial with accompanying code samples.
@@ -218,7 +218,7 @@ Interested in helping out?  Below are a few of the many ways that you can contri
 * [librcx](https://github.com/BrickBot/librcx)
   - It would be fair to say that this represents the work that started it all for the RCX!
   - Intended to be a lowest-level driver for the Lego RCX, providing an interface between your C code and the RCX ROM, allowing you to easily explore the ROM interface.
-* [BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo)  ![brickOS-bibo CI](https://github.com/BrickBot/brickOS-bibo/workflows/brickOS-bibo%20CI/badge.svg)
+* [BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo)
   - **About**
     + An alternative RCX operating system and firmware cloning brickOS. The kernel was written from scratch for better performance, but to the average brickOS programmer, changes should be transparent.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
     + Additional projects have added support for other programming languages, including the following::
@@ -233,7 +233,7 @@ Interested in helping out?  Below are a few of the many ways that you can contri
       * An Esterel back-end for Lego C with BrickOS-Bibo
       * Esterel demo programs are already included with BrickOS-Bibo; install the Esterel compiler and this back-end extension to be able to build and use them
   - ** Toolchain **
-    + [binutils-cil](https://github.com/BrickBot/binutils-cil)  ![binutils-cil CI](https://github.com/BrickBot/binutils-cil/workflows/binutils-cil%20CI/badge.svg)
+    + [binutils-cil](https://github.com/BrickBot/binutils-cil)
         * Used in conjunction with the gcc-cil project to add CIL capabilties, for use with brickOS-bibo and Lego.NET
     + [gcc-cil](https://github.com/BrickBot/gcc-cil)
         * An "official" gcc branch that adds CIL capabilities to gcc, for use with brickOS-bibo and Lego.NET
