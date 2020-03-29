@@ -68,6 +68,8 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
   - Java MindstormsTool (JMT): the MindstormsTool with an own source code editor
   - Small MindstormsTool (SMT): the stand alone version of the tool
 * Phantom: An alterative to Spirit.ocx
+* [RCXSimulator](https://www4.cs.fau.de/~felser/RCXSimulator/) <sup>↗</sup>
+  - A Java-based emulator of the Lego MindStorms RCX, including support for GDB and for IR via pseudo-terminals or UDP
 
 ## Help Needed
 Interested in helping out?  Below are a few of the many ways that you can contribute.
@@ -303,8 +305,15 @@ Interested in helping out?  Below are a few of the many ways that you can contri
 A number of  the emulators support TCP communication in place of the IR communication.
 While some tools have been updated to provide built-in support for TCP communication,
 if you are using a tool that supports serial IR communication but not TCP communication,
-it might be possible to use a null-modem emulator such as the [com0com project for Windows](http://com0com.sf.net/),
-which includes both a com2tcp component as well as hub4com component.
+it might be possible to use a null-modem or pseudo-terminal emulator
+* On Window, try the [com0com project for Windows](http://com0com.sf.net/), which includes both a com2tcp component as well as hub4com component.
+* On Linux, try `socat`  (e.g. `sudo apt-get install socat` on Debian/Ubuntu)
+  - Start socat and leave it running
+    + Serial-to-Serial exampple: `socat -d -d PTY,raw,echo=0 PTY,raw,echo=0`
+    + Serial-to-TCP Listener example:  `socat -d -d PTY,raw,echo=0 TCP4-LISTEN:<port>`
+    + Serial-to-TCP Server exampple:  `socat -d -d PTY,raw,echo=0 TCP:<host>:<port>`
+  - In scenarios where the IR echo might be expected, echo might need to be set to 1
+    + If setting echo to 1 on one side, you will need to test which device echos, as the created pseudo devices are not always initialized in command-line order
 
 Note that the program ir-server is included with the [BrickOS-Bibo project](https://github.com/BrickBot/brickOS-bibo)
 and includes “echoing” that is meant to mimic the behavior of IR communication.
