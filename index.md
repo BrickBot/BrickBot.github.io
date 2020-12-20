@@ -420,6 +420,12 @@ The links below are a mostly uncurated collection of RCX-related websites and po
   - Resisotr Switch pad
   - Motor/Light Block
   - Motor/Sensor Expander – 6 motor ports
+* [RCX Digital Input Adapter](http://www.eecs.tufts.edu/~dsculley/RCX/)
+
+### Custom Sensor Design
+* [Designing Low-Cost Sensors Compatible with LEGO MindStorms Robotics Invention System](https://www.aaai.org/Papers/Symposia/Spring/2004/SS-04-01/SS04-01-037.pdf)
+* [Making Your Own RCX Sensors, Part I](https://www.convict.lu/Jeunes/ultimate_stuff/Making%20your%20own%20RCX%20sensors.pdf)
+* [Making Your Own RCX Sensors, Part II](https://www.convict.lu/Jeunes/ultimate_stuff/Making%20your%20own%20RCX%20sensors_part2.pdf)
 
 ## Hardware Hacks: General
 * [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
