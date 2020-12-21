@@ -61,7 +61,9 @@ For a few projects known to exist, the source no longer seems to be available.  
 If so, please let us know by [posting a new issue here](https://github.com/BrickBot/BrickBot.github.io/issues/new/choose)!
 * [Visual Storms / Sharp Storms](http://medialab.di.unipi.it/Project/visualstorms/resources.html) <sup>↗</sup>
   - A system capable of translate .NET executables in programs that can be executed on the Lego Mindstorms RCX without having to change its firmware
-  - Additional known information in this [LUGNET post](https://news.lugnet.com/robotics/rcx/?n=2963) <sup>↗</sup>
+  - Additional known information in this [LUGNET post](https://news.lugnet.com/robotics/rcx/?n=2963)
+* [Pocket Programmer](https://www.navina.ch/workshop/rcx/rcx.html) <sup>↗</sup>
+  - Greatly advanced the concept of [OnScreenProgramming](https://github.com/BrickBot/OnScreenProgramming); however, source code is not currently available
 * [MindStorms Tools](https://web.archive.org/web/20120130101715/http://ddi.uni-paderborn.de/index.php?id=4800&L=1), <sup>↗</sup>  which included the following individual tools:
   - Together MindstormsTool (TMT): modul for the Together ControlCenter 4.0 or higher
   - BlueJ MindstormsTool (BJMT): extension for the BlueJ integrated environment 1.3 or higher
