@@ -491,7 +491,7 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 
 [GitHub-DetachFork]: # (https://help.github.com/en/github/setting-up-and-managing-your-github-profile/why-are-my-contributions-not-showing-up-on-my-profile#commit-was-made-in-a-fork)
 
-[Purge Git history to reduce space]: # (https://stackoverflow.com/a/13102849 | see also `git reflog` comment posted October 27, 2020, on that answer)
+[Purge Git history to reduce space]: # (https://stackoverflow.com/a/13102849 ; see also `git reflog` comment posted October 27, 2020, on that answer)
 
 [Reduce Git repository size]: # (https://stackoverflow.com/q/2116778)
 
