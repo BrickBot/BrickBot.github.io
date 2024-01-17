@@ -35,8 +35,9 @@ for the latest firmware versions for a given project, please check that respecti
   - Is not the latest version of BrickOS
   - The latest version of BrickOS officially incorporates the updates to facilitate DCC support
 
-## OnScreen Programming Firmware
-* onscreen
+## On-Screen Programming Firmware
+* OnScreen
+* Pocket Programmer
 
 ## pbForth Firmware
  See the pbForth project for the latest versions
