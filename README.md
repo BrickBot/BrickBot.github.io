@@ -53,8 +53,8 @@ For the more technically inclined, or for more advanced educational scenarios, w
 * [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
 * [Other Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
   + For general Lego software from LEGO:  [LEGO Digital Designer](https://www.lego.com/en-us/ldd)
-  + For general third-party Lego software:  [LDraw.org Third-Party Software](https://ldraw.org/downloads-2/third-party-software.html)  (also visit the main [LDraw website](https://ldraw.org/) while there)
-  + For Robotics Software from LEGO:  [Brick Factory](https://www.brickfactory.info/iso/)
+  + For general third-party LEGO software:  [LDraw.org Third-Party Software](https://ldraw.org/downloads-2/third-party-software.html)  (also visit the main [LDraw website](https://ldraw.org/) while there)
+* Archive of official software shipped with various LEGO kits:  [Brick Factory](https://www.brickfactory.info/iso/)
 
 ## Missing/Wanted
 For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?
@@ -67,13 +67,13 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
   + BlueJ MindstormsTool (BJMT): extension for the BlueJ integrated environment 1.3 or higher
   + Java MindstormsTool (JMT): the MindstormsTool with an own source code editor
   + Small MindstormsTool (SMT): the stand alone version of the tool
-* Phantom: An alterative to Spirit.ocx
+* [Phantom](https://web.archive.org/web/20101213054842/http://members.cox.net/pbrick-alpha/Phantom.htm): An alterative to Spirit.ocx
 * [RCXSimulator](https://www4.cs.fau.de/~felser/RCXSimulator/) <sup>↗</sup>
   - A Java-based emulator of the Lego MindStorms RCX, including support for GDB and for IR via pseudo-terminals or UDP
 
 ## Help Needed
 Interested in helping out?  Below are a few of the many ways that you can contribute.
-1. Debian Packaging:  With Debian packages, we are able to support a reasonable cross-section of systems, including Debian/Ubuntu Linux, Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
+1. Packaging:  Looking to be able to support a reasonable cross-section of systems, including openSUSE Tumbleweed (rolling), Debian/Ubuntu, Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
    1. [NQC](https://github.com/BrickBot/nqc)
    2. [VisualNQC](https://github.com/BrickBot/VisualNQC)
    3. [binutils-cil](https://github.com/BrickBot/binutils-cil) for h8300-hitachi-hms
@@ -274,7 +274,7 @@ Interested in helping out?  Below are a few of the many ways that you can contri
   + DCC capabilities for the Lego MindStorms RCX
 * [OnScreenProgramming](https://github.com/BrickBot/OnScreenProgramming)
   + Facilitates programming a Lego Mindstorms RCX on its LCD screen via its View/Prgm buttons, without use of a computer
-* [Pocket Programmer](https://www.navina.ch/workshop/rcx/rcx.html) <sup>↗</sup>
+* [Pocket Programmer](https://github.com/BrickBot/PocketProgrammer/)
   + Greatly advanced the concept of [OnScreenProgramming](https://github.com/BrickBot/OnScreenProgramming)
   + Firmware is available but not the source code
 * [Quite C](https://github.com/BrickBot/QuiteC)
