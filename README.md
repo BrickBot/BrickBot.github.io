@@ -97,7 +97,7 @@ Interested in helping out?  Below are a few of the many ways that you can contri
   + [RobotC](https://github.com/BrickBot/RobotC)
     - A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
     - Includes its own version of firmware for the RCX
-  + [BricxCC](http://bricxcc.sourceforge.net/) <sup>↗</sup>
+  + [BricxCC](https://github.com/BrickBot/BricxCC/)
     - An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
     - Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
   + [MacNQC](https://github.com/BrickBot/MacNQC)
