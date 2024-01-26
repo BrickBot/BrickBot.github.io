@@ -1,9 +1,5 @@
 # Educational Resources
 
-## In This Repository Folder
-* Workshop Plans: Learning to Program with the RCX and leJOS (5-Lesson Series)
-
-
 ## Educational Resources
 * [LEGO Education Home](http://www.lego.com/education/)
 * [Lego Engineering Home](http://www.legoengineering.com/)
