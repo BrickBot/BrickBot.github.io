@@ -183,6 +183,8 @@ Interested in helping out?  Below are a few of the many ways that you can contri
   + **Toolchain**
     - [CLIFileRW](https://github.com/BrickBot/CLIFileRW)
       * A .NET library developed for the CodeBricks research project that is specifically designed to read and rewrite .NET binaries and was used in conjuction with the Visual Storms / Sharp Storms projects
+  + **UI Library**
+    - [Magic Library](https://github.com/BrickBot/MagicLibrary): A user interface library for .NET
 * [ASML: Asynchronous State Machine Language](https://github.com/BrickBot/ASML)
   + Execute Asynchronous State Machine (ASM) charts as RCX programs
 * [Legolog](https://github.com/BrickBot/Legolog)
