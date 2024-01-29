@@ -335,7 +335,7 @@ Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) proje
 * [BrickEmu](https://github.com/BrickBot/BrickEmu)
   + An emulator for LEGO MindStorms RCX bricks. It emulates processor and peripherals, so it runs the original ROM code, firmware, and programs.
 * [RCXSimulator](https://github.com/BrickBot/RCXSimulator)
-  + A Java-based emulator of the Lego MindStorms RCX
+  + A Java-based emulator of the Lego MindStorms RCX, including support for GDB and for IR via pseudo-terminals or UDP.
 * [Intellejos](https://github.com/BrickBot/Intellejos)
   + An RCX Simulator for LeJOS, based on the earlier Intellego project, for learning to program in Java using the LeJOS platform.
 * [Intellego](https://github.com/BrickBot/Intellego)
