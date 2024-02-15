@@ -347,7 +347,7 @@ Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) proje
 
 ## Projects for Interacting with Other Devices
 These projects are currently hosted in external repositories but can be transferred or imported if there is interest
-* [RCX-PI](https://github.com/terryspring/RCX-PI) <sup>↗</sup> (leJOS-based): an experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development
+* [RCX-PI](https://github.com/BrickBot/RCX-PI) (leJOS-based): an experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development
 * [RoboRemote](https://github.com/hanswannop/RoboRemote) <sup>↗</sup> (leJOS-based): Remotely contol an RCX using an attached smartphone, light sensors, leJOS, WebSockets, and Go
 * [RemoteMindStorm](https://github.com/JSFernandes/RemoteMindstorm) <sup>↗</sup> (NQC-based):  Control an RCX via LeapMotion and voice, using a basic messaging scheme
   + Includes a number of binary *.jar and *.so files in version control
