@@ -18,7 +18,7 @@
   - [Book Worm](https://web.archive.org/web/20190414201102/http://www.marshall.edu/LEGO/lessonplans/BookWorm/BookWormAll.html)
   - [Fun with Gears](https://web.archive.org/web/20190414184952/http://www.marshall.edu/LEGO/lessonplans/Houston/LEGOprojects.html)
 * [A Lego-robot with camera controlled by Matlab overview](http://web.abo.fi/fak/tkf/rt/robot/index.php?content=0)
-* [Adder](http://web.archive.org/web/20010609003439/http://prelude.psy.umontreal.ca/~cousined/lego/1-Varia/adder/adder.html)
+* [Adder Differential Drive](http://web.archive.org/web/20010609003439/http://prelude.psy.umontreal.ca/~cousined/lego/1-Varia/adder/adder.html)  (AdderDifferentialDrive.dat)
 * [Andreas Junghans - Lego Mindstorms](http://www.lucid-cake.net/mindstorms/index_en.html)
 * [Ben Jackson’s Mindstorms Creations](http://www.ben.com/LEGO/rcx/)
 * [Chattanooga Robotics Web Site - BOT-BOX](http://www.chattabot.org/botbox.html)
