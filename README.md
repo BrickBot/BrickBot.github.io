@@ -46,12 +46,12 @@ For the more technically inclined, or for more advanced educational scenarios, w
 # Index of Resources
 
 ## Available
-* [Designs](https://github.com/BrickBot/BrickBot.github.io/tree/master/Designs):  Links and files for various robot designs
-* [Documentation](https://github.com/BrickBot/BrickBot.github.io/tree/master/Documentation):  Official techincal documentation from Lego and Renesas
-* [Education](https://github.com/BrickBot/BrickBot.github.io/tree/master/Education/):  Resources for those using the RCX in education
+* [Official Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
+* [Designs](Designs.md):  Links and files for various robot designs
+* [Education](EducationalResources.md):  Resources for those using the RCX in education
 * [Firmware](https://github.com/BrickBot/BrickBot.github.io/tree/master/Firmware):  Archive of notable known RCX [firmware](Firmware/README.md) images
 * [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
-* [Other Software](https://github.com/BrickBot/BrickBot.github.io/tree/master/Software):  Archived drivers, updates, system prerequisites
+* [Other Software](https://github.com/BrickBot/Archive/):  Archived drivers, updates, system prerequisites
   + For general Lego software from LEGO:  [LEGO Digital Designer](https://www.lego.com/en-us/ldd)
   + For general third-party LEGO software:  [LDraw.org Third-Party Software](https://ldraw.org/downloads-2/third-party-software.html)  (also visit the main [LDraw website](https://ldraw.org/) while there)
 * Archive of official software shipped with various LEGO kits:  [Brick Factory](https://www.brickfactory.info/iso/)
@@ -99,14 +99,14 @@ Interested in helping out?  Below are a few of the many ways that you can contri
     - Includes its own version of firmware for the RCX
   + [BricxCC](https://github.com/BrickBot/BricxCC/)
     - An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
-    - Project not yet forked, as there have been occasional updates to support newer devices, but it can be forked if there is interest
   + [MacNQC](https://github.com/BrickBot/MacNQC)
     - A stand-alone version of the NQC compiler for the Macintosh OS
   + [Interactive C](https://web.archive.org/web/20171101054739/http://www.kipr.org/products/interactive-c) <sup>↗</sup>
-    - A program which uses a modified version of ANSI C with several libraries and features that allow hobbyists to program small robotics platforms.
+    - Uses a modified version of ANSI C with several libraries and features that allow hobbyists to program small robotics platforms
     - Able to compile on the fly (c.f. [Wikipedia](https://en.wikipedia.org/wiki/Interactive_C))
   + [PRO-BOT](http://mapageweb.umontreal.ca/cousined/lego/4-RCX/PRO-BOT/) <sup>↗</sup>  **_Tethered Only; No Stand-Alone Capabilities_**
     - A program editor for the Lego MindStorms RCX programmable brick aimed at keeping a constant link between the PC and the brick
+    - Bundles Phantom.dll with the installer
 * **Iconic/Visual Programming**
   + [VisualNQC](https://github.com/BrickBot/VisualNQC)
     - An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
