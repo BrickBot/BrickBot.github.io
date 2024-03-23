@@ -3,6 +3,7 @@
 ## Educational Resources
 * [LEGO Education Home](http://www.lego.com/education/)
 * [Lego Engineering Home](http://www.legoengineering.com/)
+  + [RCX Challenge Ideas and Information](http://legoengineering.com/platform/rcx/)
 * [Mindstorms in Education](http://www.crynwr.com/lego-robotics/education.html)
 * [NASA Robotics - Robotics Alliance Project](http://robotics.nasa.gov/)
    -[Robotics Curriculum Clearinghouse - Lesson Plans and Educational Resources](http://robotics.nasa.gov/rcc/)
