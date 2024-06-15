@@ -419,9 +419,17 @@ The links below are a mostly uncurated collection of RCX-related websites and po
   + [RCX Tools](http://www.mralligator.com/rcx/tools.html)
 * [LEGO MINDSTORMS Internals](https://web.archive.org/web/20190816230906/http://www.crynwr.com/lego-robotics/)
 * [RCX Manual](https://web.archive.org/web/20190703224522/http://legolab.daimi.au.dk/CSaEA/RCX/Manual.dir/RCXManual.html)
-* [How to LNP](http://www.cs.brown.edu/courses/cs148/old/2004fall/brickOS/HOWTO/lnp.html)
-* [Notes on LNP](https://web.archive.org/web/20040627230632/http://www.docs.uu.se/docs/undergrad/instances/spring2002/RTSystemDvpMnp/assignments/notes_on_lnp.html)
+* 
+* 
 * [Lego RCX Firmware Disassembler](http://web.archive.org/web/20011029155757/http://www.geocities.com/ResearchTriangle/Thinktank/4411/)
+
+## Communication
+* LNP
+  + [How to LNP](http://www.cs.brown.edu/courses/cs148/old/2004fall/brickOS/HOWTO/lnp.html)
+  + [Notes on LNP](https://web.archive.org/web/20040627230632/http://www.docs.uu.se/docs/undergrad/instances/spring2002/RTSystemDvpMnp/assignments/notes_on_lnp.html)
+* Visual Light Link (VLL)
+  + [Visual Light Link Programming the LEGO Micro Scout with the RCX](http://www.elecbrick.com/vll/)
+    - RCX 2.0 firmware includes support for sending VLL commands
 
 ## Sensors and Multiplexors
 * [Danny's Mindstorms Page](https://web.archive.org/web/20060710063039/http://unitutor.unisi.it/~danny/)
@@ -434,6 +442,7 @@ The links below are a mostly uncurated collection of RCX-related websites and po
   + Resistor Switch Pad: 4 switch sensors on 1 sensor input
   + Motor/Light Block: Create 2 motor ports from 1, but with one engaged when Forward and the other when in Reverse
   + Motor/Sensor Expander: 6 motor ports
+* [Four-Way Touch Sensor Multiplexor](https://www.elecbrick.com/mux/)
 
 ### Individual Sensors
 * [Philo: Lego MindStorms Compatible Sensor Devices](https://www.philohome.com/sensors.htm)
