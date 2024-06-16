@@ -6,7 +6,7 @@ Please feel free to join and contribute in whatever way you can, whether that mi
 or updating documenation, converting plain-text ReadMe files to Markdown, setting up wikis, or updating code to
 work with the latest host platforms.
 
-The initial seventy-plus (70+) projects gathered under this BrickBot organization on GitHub were largely collected by Matthew Sheets.
+The initial eighty-plus (80+) projects gathered under this BrickBot organization on GitHub were largely collected by Matthew Sheets.
 
 
 ## Disclaimer
