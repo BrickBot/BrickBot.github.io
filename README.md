@@ -11,6 +11,7 @@ The initial eighty-plus (80+) projects gathered under this BrickBot organization
 
 ## Quick Start Menu
 There are a lot of projects to explore, but where to start?
+
 | You would like to… | Your computer type… | Suggested Project | Project Description |
 |--------------------|---------------------|-------------------|---------------------|
 | Visually Program | Supports Java | VisualNQC | An iconic programming tool offering functionality similar to LEGO’s original Robotics Invention System software |
