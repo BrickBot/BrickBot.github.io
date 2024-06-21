@@ -9,47 +9,42 @@ work with the latest host platforms.
 The initial eighty-plus (80+) projects gathered under this BrickBot organization on GitHub were largely collected by Matthew Sheets.
 
 
-## Disclaimer
-Neither this organization nor any of its included projects are associated in any way with LEGO or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
+## Quick Start Menu
+There are a lot of projects to explore, but where to start?
+| You would like to… | Your computer type… | Suggested Project | Project Description |
+|--------------------|---------------------|-------------------|---------------------|
+| Visually Program | Supports Java | VisualNQC | An iconic programming tool offering functionality similar to LEGO’s original Robotics Invention System software |
+| Write Code to Program | Windows | RobotC | A full-featured Windows IDE offering the only support at this level for comprehensive, real-time debugging |
+| Write Code to Program | Windows/Mac/\*nix | BricxCC | A multi-platform IDE that supports writing NQC code |
+| Program in a Java Environment | Supports Java | HaikuVM | A leJOS successor for programming the RCX using Java |
+| Use Open Source Firmware | Windows/Mac/\*nix | BrickOS-Bibo | Offers lower-level control of the RCX and supports multiple programming languages |
 
-Some sites referenced only by link do not have a repository setup to due to identified redistribution restrictions.
+For the more technically inclined, or for more advanced educational scenarios, we strongly encourage reviewing the numerous other options available across this organization’s repositories.
 
-
-## Notes
-No version of the Lego USB tower driver for 64-bit Windows is known to exist.
-Conversely, there is not currenly a version of GitHub Desktop for 32-bit Windows.
-For those wanting an alternative to GitHub Desktop that also provides a 32-bit distribution,
-the open source [GitAhead](http://gitahead.com/) project is suggested.
-
-
-## Quick Start
-For just those interested in a "quick start" that works reasonably well on current computer setups, I would suggest the following combination:
-* [NQC](https://github.com/BrickBot/nqc):  Base programming tool
-  + Uses the original Lego firmware
-  + Executables available for Windows, Mac, and Linux
-* [VisualNQC](https://github.com/BrickBot/VisualNQC):  An iconic programming tool similar to—and potentially replacing—Lego’s original Robotics Invention System software
-  + Generates NQC code as output, so can be used to transition from iconic program to text-based programming
-  + Uses NQC to compile and deploy, which must also be installed
-  + Written in Java, so runs on multiple platforms
-  + Formerly known as fUNSoftware, it has been updated to better work with larger screen sizes
-* IR Tower
+### IR Tower Support Status
   + Linux:  Lego USB tower drivers have been included, so either the serial or USB IR tower may be used, regardless of CPU architecture or bitness
     - A Raspberry PI can be used, which educational scenarios in particular might find advantageous
   + Windows:  The short and simple—
     - 32-bit:  Either the serial IR tower or—after installing the drivers—the USB IR tower may be used
     - 64-bit:  Only works with the serial IR tower; if your computer does not have a serial port, you will need to use a USB-to-serial adapter
 
-For the more technically inclined, or for more advanced educational scenarios, we strongly encourage reviewing the numerous other options available across this organization’s repositories.
+### Open Source Notes
+Conversely to the driver issue, there is not currenly a version of GitHub Desktop for 32-bit Windows.
+For those wanting an alternative to GitHub Desktop that also provides a 32-bit distribution,
+the open source [GitAhead](http://gitahead.com/) project is suggested.
+
 
 * * *
 
 # Index of Resources
 
 ## Available
-* [Official Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
+* [Official LEGO® Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
 * [Designs](Designs.md):  Links and files for various robot designs
-* [Education](EducationalResources.md):  Resources for those using the RCX in education
-* [Firmware](https://github.com/BrickBot/BrickBot.github.io/tree/master/Firmware):  Archive of notable known RCX [firmware](Firmware/README.md) images
+* [Firmware](Firmware.md):  Archive of notable known RCX firmware images
+* [Emulators and Simulators](Emulators.md)
+* [Sensors and Output Devices]: Hacks and custom hardware
+* [Education](Resources-Educational.md):  Resources for those using the RCX in education
 * [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
 * [Other Software](https://github.com/BrickBot/Archive/):  Archived drivers, updates, system prerequisites
   + For general Lego software from LEGO:  [LEGO Digital Designer](https://www.lego.com/en-us/ldd)
@@ -93,25 +88,38 @@ Interested in helping out?  Below are a few of the many ways that you can contri
 # Index of Repositories
 
 ## Development Suites
-* **Text-Based Programming**
+* **Iconic/Visual Programming Environments**
+  + [VisualNQC](https://github.com/BrickBot/VisualNQC)
+    - An iconic language tool for the Lego MindStorms RCX
+    - Generates NQC code as output, so can be used to transition from iconic program to text-based programming
+    - Uses NQC to compile and deploy, which must also be installed
+    - Written in Java, so runs on multiple platforms
+    - Formerly known as fUNSoftware, it has been updated to better work with larger screen sizes
+  + [actor-lab](https://github.com/BrickBot/actor-lab) **_Tethered Only; No Stand-Alone Capabilities_**
+    - A parallel, object-orientated, iconic control language designed to introduce the ideas of control technology and robotics
+  + [RoboLab for LabVIEW](http://www.legoengineering.com/robolab-for-labview/)
+    - Commercial product released in collaboration with LEGO
+    - [LabVIEW](https://decibel.ni.com/content/docs/DOC-15615)
+    - [Installation and Setup Instructions](https://github.com/BrickBot/RoboLab)
+  + [RCX PicoBlocks, by Playful Invention](https://web.archive.org/web/20230204110316/http://www.playfulinvention.com/rcx/)
+    - Commercial product
+    - Described as working only with Windows XP
+* **Integrated Development Environments (IDEs)**
   + [RobotC](https://github.com/BrickBot/RobotC)
     - A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
     - Includes its own version of firmware for the RCX
+    - The last version that was released with RCX support is now available free of charge
   + [BricxCC](https://github.com/BrickBot/BricxCC/)
     - An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
+    - Can work with NQC, BrickOS, and leJOS
   + [MacNQC](https://github.com/BrickBot/MacNQC)
     - A stand-alone version of the NQC compiler for the Macintosh OS
   + [Interactive C](https://web.archive.org/web/20171101054739/http://www.kipr.org/products/interactive-c) <sup>↗</sup>
     - Uses a modified version of ANSI C with several libraries and features that allow hobbyists to program small robotics platforms
     - Able to compile on the fly (c.f. [Wikipedia](https://en.wikipedia.org/wiki/Interactive_C))
-  + [PRO-BOT](http://mapageweb.umontreal.ca/cousined/lego/4-RCX/PRO-BOT/) <sup>↗</sup>  **_Tethered Only; No Stand-Alone Capabilities_**
-    - A program editor for the Lego MindStorms RCX programmable brick aimed at keeping a constant link between the PC and the brick
+  + [PRO-BOT](https://github.com/BrickBot/PRO-BOT)  **_Tethered Only; No Stand-Alone Capabilities_**
+    - A program editor for the Lego MindStorms RCX programmable brick with the standard LEGO firmware, aimed at keeping a constant link between the PC and the brick
     - Bundles Phantom.dll with the installer
-* **Iconic/Visual Programming**
-  + [VisualNQC](https://github.com/BrickBot/VisualNQC)
-    - An iconic language tool for the Lego MindStorms RCX, which generates NQC code.
-  + [actor-lab](https://github.com/BrickBot/actor-lab) **_Tethered Only; No Stand-Alone Capabilities_**
-    - A parallel, object-orientated, iconic control language designed to introduce the ideas of control technology and robotics
 * **Modeling and Implementation**
   + [Times Tool](http://www.timestool.com/) <sup>↗</sup>
     - A tool set for modelling, schedulability analysis, synthesis of (optimal) schedules and executable code, supporting system specification, system analysis and code generation for the LegoOS (now BrickOS-Bibo) platform
@@ -130,8 +138,6 @@ Interested in helping out?  Below are a few of the many ways that you can contri
     - Little is currently known about this software; not even a website archive appears to have survived.
 
 ## Tools and Utilities
-* [lvi: leJOS Visual Interface](https://github.com/BrickBot/lvi)
-  + The leJOS Visual Interface is a skin over the command-line commands for the leJOS firmware. It also is a simple editor that can have many files open at once.
 * [RCXDatalog](https://github.com/BrickBot/RCXDatalog)
   + A GUI-based Unix tool to interact with the Lego Mindstorms RCX brick. Using RCXDatalog, you can upload the datalog of the RCX and display it on your screen or print it to a PostScript printer. Plus, there are additional widgets to show light and touch sensor readings of the RCX.
 * [Bound-T for the H8/300](https://github.com/BrickBot/Bound-T-H8-300)
@@ -223,6 +229,9 @@ Interested in helping out?  Below are a few of the many ways that you can contri
 * [librcx](https://github.com/BrickBot/librcx)
   + It would be fair to say that this represents the work that started it all for the RCX!
   + Intended to be a lowest-level driver for the Lego RCX, providing an interface between your C code and the RCX ROM, allowing you to easily explore the ROM interface.
+* [Quite C](https://github.com/BrickBot/QuiteC)
+  + Quite C is intended to be a repackaging and reordering of a miniOS (no multitasking!) for the Lego RCX. It provides an interface between your C code and the ROM. The intent is to allow you to write very large programs in C language (neural and pathfinder programs like) with Microsoft Windows platform. LegOS is too Unixish ;)
+  + Each program appears to be created as its own firmware (SREC) file
 * [BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo)
   + **About**
     - An alternative RCX operating system and firmware cloning brickOS. The kernel was written from scratch for better performance, but to the average brickOS programmer, changes should be transparent.  There is a lot of code borrowed from brickOS, and numerous patches originally targeted for brickOS have been conceptually incorporated.  While this project is based on bibo, as brickOS still seems to be the more recognizable name, it has been retained as part of the name.
@@ -252,18 +261,25 @@ Interested in helping out?  Below are a few of the many ways that you can contri
   + **IDE Add-Ins**
     - [leJOS Development Toolset for Eclipse](https://github.com/BrickBot/leJOS-RCX-Eclipse)
       * Eclipse plug-ins that simplify developing Java code for the Lego MindStorms RCX using the leJOS JVM, offering easy configuration through a project wizard and a preference page, using Eclipse code building, and adding RCX-specific operations both for firmware and byte-code download.
-  + **Utilities**
+  + **Tools & Utilities**
     - [leJOS-RCX-Tools](https://github.com/BrickBot/leJOS-RCX-Tools)
       * A visual interface for leJOS. RCXDownload automatically sets the JDK-, leJOS- and ClassPaths, compiles the chosen Java-Source, shows the compiler messages and is able to link and load both the compiled classes and the leJOS-firmware.
     - [leJOS-RCX-MindStormsTools](https://github.com/BrickBot/leJOS-RCX-MindStormsTools)
       * A small toolkit to aid in the uploading of Java programs to LEGO MindStorms RCX bricks, providing functionality of the leJOS library in the development environment for this purpose
     - [leJOS-RCX-TextLCDApplet](https://github.com/BrickBot/leJOS-RCX-TextLCDApplet)
       * Java Applet GUI for testing josx.platform.rcx.TextLCD
+    - [lvi: leJOS Visual Interface](https://github.com/BrickBot/lvi)
+      * The leJOS Visual Interface is a skin over the command-line commands for the leJOS firmware. It also is a simple editor that can have many files open at once.
   + **Support for More Current Java Versions**
     - [oversticht/lego-rcx-lejos](https://github.com/oversticht/lego-rcx-lejos) (external)
       * Based on leJOS v2.1 instead of v3.0-RC2 that is in the repository in this BrickBot organization
     - [HaikuVM](https://haiku-vm.sourceforge.net) (external)
       * A spinoff Java VM approach referenced by @oversticht
+* [TinyVM](https://github.com/BrickBot/TinyVM)
+  + A replacement firmware and VM that can execute Java programs in the Lego Mindstorms RCX, supporting several of the most useful features of the Java language.
+  + Breaks the 32-variable limit imposed by the official Lego firmware (like other firmware replacements such as brickOS and pbForth also do)
+  + No need to install a cross-compiler
+  + The progenitor of [leJOS](https://github.com/BrickBot/leJOS)
 * [pbForth](https://github.com/BrickBot/pbForth)
   + An incarnation of Forth that is designed to work with the LEGO MindStorms RCX brick as an alternative firmware for the RCX.
 * [Asterix](https://github.com/BrickBot/Asterix)
@@ -279,16 +295,8 @@ Interested in helping out?  Below are a few of the many ways that you can contri
 * [Pocket Programmer](https://github.com/BrickBot/PocketProgrammer/)
   + Greatly advanced the concept of [OnScreenProgramming](https://github.com/BrickBot/OnScreenProgramming)
   + Firmware is available but not the source code
-* [Quite C](https://github.com/BrickBot/QuiteC)
-  + Quite C is intended to be a repackaging and reordering of a miniOS (no multitasking!) for the Lego RCX. It provides an interface between your C code and the ROM. The intent is to allow you to write very large programs in C language (neural and pathfinder programs like) with Microsoft Windows platform. LegOS is too Unixish ;)
-  + Each program appears to be created as its own firmware (SREC) file
 * [TinySoar](https://github.com/BrickBot/TinySoar)
   + An implementation of the Soar artificial intelligence architecture that is intended to run on memory constrained devices.
-* [TinyVM](https://github.com/BrickBot/TinyVM)
-  + A replacement firmware and VM that can execute Java programs in the Lego Mindstorms RCX, supporting several of the most useful features of the Java language.
-  + Breaks the 32-variable limit imposed by the official Lego firmware (like other firmware replacements such as brickOS and pbForth also do)
-  + No need to install a cross-compiler
-  + The progenitor of [leJOS](https://github.com/BrickBot/leJOS)
 * [tvm-rcx](https://github.com/BrickBot/tvm-rcx)
   + A Transterpreter Virtual Machine (TVM) wrapper for the Lego MindStorms RCX
 
@@ -312,45 +320,14 @@ Interested in helping out?  Below are a few of the many ways that you can contri
 * [hubub](https://github.com/BrickBot/hubub)
   + A simple TCP data reflector for quickly building distributed applications. It can broadcast data from one client to many (or many to many) with little system overhead. Written in heavily commented 'c', with example clients in TCL.
 
-## Emulators
-A number of  the emulators support TCP communication in place of the IR communication.
-While some tools have been updated to provide built-in support for TCP communication,
-if you are using a tool that supports serial IR communication but not TCP communication,
-it might be possible to use a null-modem or pseudo-terminal emulator
-* On Window, try the [com0com project for Windows](http://com0com.sf.net/), which includes both a com2tcp component as well as hub4com component.
-* On Linux, try `socat`  (e.g. `sudo apt-get install socat` on Debian/Ubuntu)
-  + Start socat and leave it running
-    - Serial-to-Serial exampple: `socat -d -d PTY,raw,echo=0 PTY,raw,echo=0`
-    - Serial-to-TCP Listener example:  `socat -d -d PTY,raw,echo=0 TCP4-LISTEN:<port>`
-    - Serial-to-TCP Server exampple:  `socat -d -d PTY,raw,echo=0 TCP:<host>:<port>`
-  + In scenarios where the IR echo might be expected, echo might need to be set to 1
-    - If setting echo to 1 on one side, you will need to test which device echos, as the created pseudo devices are not always initialized in command-line order
-
-Note that the program ir-server is included with the [BrickOS-Bibo project](https://github.com/BrickBot/brickOS-bibo)
-and includes “echoing” that is meant to mimic the behavior of IR communication.
-Additionally, there is also the [hubub](https://github.com/BrickBot/hubub) project that is included in this GitHub organization.
-
-* [getROM](https://github.com/BrickBot/getROM)
-  + Tools and utilities from dumping the ROM from an RCX, which is often then used by RCX emulators.
-* [BrickEmu](https://github.com/BrickBot/BrickEmu)
-  + An emulator for LEGO MindStorms RCX bricks. It emulates processor and peripherals, so it runs the original ROM code, firmware, and programs.
-* [RCXSimulator](https://github.com/BrickBot/RCXSimulator)
-  + A Java-based emulator of the Lego MindStorms RCX, including support for GDB and for IR via pseudo-terminals or UDP.
-* [Intellejos](https://github.com/BrickBot/Intellejos)
-  + An RCX Simulator for LeJOS, based on the earlier Intellego project, for learning to program in Java using the LeJOS platform.
-* [Intellego](https://github.com/BrickBot/Intellego)
-  + A tool for experimenting with robotic control techniques, providing a framework which enables researchers to develop controller programs for the Lego MindStorms RCX in Java, and test them either in simulation or in a real RCX robot with no alteration to the controller code.
-* [LegoSim](https://github.com/BrickBot/LegoSim)
-  + A UNIX-based Simulator for LegOS/BrickOS with an Applet-GUI
-* [EmuLegOS](https://github.com/BrickBot/EmuLegOS)
-  + An emulator for the LegOS (BrickOS) operating system used on the Lego MindStorms RCX.
-
 ## Projects for Interacting with Other Devices
-These projects are currently hosted in external repositories but can be transferred or imported if there is interest
+Some of these projects are currently hosted in external repositories but can be transferred or imported if there is interest
 * [RCX-PI](https://github.com/BrickBot/RCX-PI) (leJOS-based): an experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development
 * [RoboRemote](https://github.com/hanswannop/RoboRemote) <sup>↗</sup> (leJOS-based): Remotely contol an RCX using an attached smartphone, light sensors, leJOS, WebSockets, and Go
 * [RemoteMindStorm](https://github.com/JSFernandes/RemoteMindstorm) <sup>↗</sup> (NQC-based):  Control an RCX via LeapMotion and voice, using a basic messaging scheme
   + Includes a number of binary *.jar and *.so files in version control
+* [Rokenstorms: The Rokenbok/Mindstorms Radio Control Module Project](https://web.archive.org/web/20081219025330/http://www.stormyprods.com/lego/rokenbok.htm)
+
 
 
 * * *
@@ -393,7 +370,7 @@ WSL now supports graphical capabilities
 * * *
 
 # RCX Links and Resources
-The links below are a mostly uncurated collection of RCX-related websites and postings.  To retrieve some links, it may be necessary to use [archive.org](archive.org).
+The links below are a partially-curated collection of RCX-related websites and postings.  To retrieve some links, it may be necessary to use [archive.org](archive.org).
 
 ## Communities
 * [RCX Subforum on LUGNET](https://news.lugnet.com/robotics/rcx/)
@@ -424,59 +401,16 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [Lego RCX Firmware Disassembler](http://web.archive.org/web/20011029155757/http://www.geocities.com/ResearchTriangle/Thinktank/4411/)
 
 ## Communication
+* General LEGO IR
+* LEGO Visual Light Link (VLL)
+  + [Visual Light Link Programming the LEGO Micro Scout with the RCX](http://www.elecbrick.com/vll/)
+    - RCX 2.0 firmware includes support for sending VLL commands
 * LNP
   + [How to LNP](http://www.cs.brown.edu/courses/cs148/old/2004fall/brickOS/HOWTO/lnp.html)
   + [Notes on LNP](https://web.archive.org/web/20040627230632/http://www.docs.uu.se/docs/undergrad/instances/spring2002/RTSystemDvpMnp/assignments/notes_on_lnp.html)
-* Visual Light Link (VLL)
-  + [Visual Light Link Programming the LEGO Micro Scout with the RCX](http://www.elecbrick.com/vll/)
-    - RCX 2.0 firmware includes support for sending VLL commands
-
-## Sensors and Multiplexors
-* [Danny's Mindstorms Page](https://web.archive.org/web/20060710063039/http://unitutor.unisi.it/~danny/)
-* [LEGO sensor page](http://www.barello.net/ARC/projects/LEGO/)
-* [LePoMux (LEGO Port-Multiplexer)](https://web.archive.org/web/20070216231344/http://www.lepomux.org/)
-* [Michael Gasperi's LEGO Mindstorms Sensor Input Page](https://web.archive.org/web/20200719080333/http://www.extremenxt.com/lego.htm)
-* [Sensors](http://www.convict.lu/Jeunes/Sensors.htm)
-* [TFM's Home Page](http://www.akasa.bc.ca/tfm/) – See the "My LEGO Workshop (MindStorms)" link for the following:
-  + Temperature Sensor
-  + Resistor Switch Pad: 4 switch sensors on 1 sensor input
-  + Motor/Light Block: Create 2 motor ports from 1, but with one engaged when Forward and the other when in Reverse
-  + Motor/Sensor Expander: 6 motor ports
-* [Four-Way Touch Sensor Multiplexor](https://www.elecbrick.com/mux/)
-
-### Individual Sensors
-* [Philo: Lego MindStorms Compatible Sensor Devices](https://www.philohome.com/sensors.htm)
-  + [Infra-Red Lamp](https://www.philohome.com/sensors/irlamp.htm)
-  + [Rotation Sensor](https://www.philohome.com/sensors/rotsensor.htm)
-  + [Improving Infra-Red Sensitivity of the Lego Light Sensor](https://www.philohome.com/sensors/ir_sensitivity.htm)
-  + [GP2D12 Distance Sensor](https://www.philohome.com/sensors/gp2d12.htm)
-  + [Color Sensor](https://www.philohome.com/sensors/colorsensor.htm)
-  + [Wire Guidance Sensor](https://www.philohome.com/sensors/filoguide.htm)
-  + [Temperature Sensor](https://www.philohome.com/sensors/tempsensor.htm)
-  + [Laser Target Finder Sensor](https://www.philohome.com/sensors/lasersensor.htm)
-* [Homebrew Lego Sensors](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/)
-  + [Temperature Sensor](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/#temp)
-  + [Light Sensor](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/#light)
-  + [Bend Sensor](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/#bend)
-* [Proximity Sensor](https://robotics.benedettelli.com/lego-proximity-sensor-rcx/)
-* [Line Tracking Sensor From Sven Horstmann](http://www.extremenxt.com/linetrak.htm)
-* Techno-Stuff Limit Switch: Stop a motor without using a sensor port
-  + [Limit Switch Theory and Application](https://web.archive.org/web/20200219171703/http://www.techno-stuff.com/limit.htm)
-  + [Building a Limit Switch](https://web.archive.org/web/20200219110707/http://www.techno-stuff.com/lswitch.htm)
-  + [Adapter Using Lego Switch Sensors](https://web.archive.org/web/20200219171803/http://www.techno-stuff.com/lsa.htm)
-
-### Sensor Adapters
-* [RCX Digital Input Adapter](http://www.eecs.tufts.edu/~dsculley/RCX/)
-
-### Custom Sensor Design
-* [Designing Low-Cost Sensors Compatible with LEGO MindStorms Robotics Invention System](https://www.aaai.org/Papers/Symposia/Spring/2004/SS-04-01/SS04-01-037.pdf)
-* [Making Your Own RCX Sensors, Part I](https://www.convict.lu/Jeunes/ultimate_stuff/Making%20your%20own%20RCX%20sensors.pdf)
-* [Making Your Own RCX Sensors, Part II](https://www.convict.lu/Jeunes/ultimate_stuff/Making%20your%20own%20RCX%20sensors_part2.pdf)
 
 ## Hardware Hacks: General
 * [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
-* [Lego Rotation Sensor Internals and Fix](http://www.philohome.com/sensors/legorot.htm)
-* [RCX Motor Power Booster Schematic with RCX Variable-Speed Control](http://news.lugnet.com/robotics/?n=22861)
 
 ## Hardware Hacks: Communication
 [BrickOS-Bibo Patch # 33](https://news.lugnet.com/robotics/rcx/legos/?n=4057), incorporated by Matthew Sheets, included Bluetooth-facilitating capabilities
@@ -487,12 +421,36 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 * [Board-Soldering Communication Hacks](http://www.convict.lu/Jeunes/RCXCam/RCXCam_Journal.htm)
 * [Use an Audio Output Jack to Send IR Commands](https://github.com/legokichi/webRCX)
 
-## Hardware Hacks: Interfaces
-* [Rokenstorms: The Rokenbok/Mindstorms Radio Control Module Project](https://web.archive.org/web/20081219025330/http://www.stormyprods.com/lego/rokenbok.htm)
-
 ## Firmware/Languages Lists
 * [Quick Start Guide](https://web.archive.org/web/20090502162540/http://www.ee.adfa.edu.au/staff/hrp/teaching/LegoMindstorm/LegoHelpHRP.html)
 * [Old listing of various programming languages for the RCX, retrieved via archive.org](http://web.archive.org/web/20070411223240/http://club.lego.com/messageboards/ShowPost.aspx?PostID=390806)
+
+## General Lego
+* [BrickLink](https://www.bricklink.com/)
+
+* * *
+
+# RCX Hardware Accessories
+
+## RCX Power
+For RCX bricks with a power port, the LEGO recommendation was their 9V AC Adapter part # 9833.
+
+## USB-to-Serial Adapter for the Serial IR Tower
+FTDI chips generally have the best reputation, so more general advice is to look for adapters with those chips.
+* [USB-to-Serial Adapter Cable by ESU](https://www.esu.eu/en/products/accessories/usb-connection-cable/) - ESU needed reliable adapters to work with the serial connections on their hardware, so they have a vested interest in ensuring that these adapters are functionally robust.
+
+## Battery Elimination for Serial IR Tower
+Due to the design of the serial IR tower, a "dummy" 9V battery is the easiest replacement.  No fees, commissions, etc. are earned with these links; other sources welcome.
+* [9V Active Dummy Cell Battery with 8” Flat Flexible Cable and 5.5mm/2.1mm Barrel Socket](https://www.lightsandbatteries.com/ProductDetails.asp?ProductCode=9V-ACTIVE-DUMMY) - For use with a separate power adapter
+  + [USB-A to to 2.1mm Jack with 9V Output](https://www.adafruit.com/product/2777)
+  + [USB-C Power Delivery Adapter with 9V 5A Output](https://www.adafruit.com/product/5449) - The jack works with sockets having a 5.5mm outer diameter and either a 2.5mm or 2.1mm inner-diameter
+  + [USB-A to 5.5mm/2.1mm Jack DC Booster Cable with Selectable 9V or 12V Output](https://www.adafruit.com/product/5457)
+  + [USB-C Power Delivery Adapter with Reprogrammable Output Voltage](https://www.adafruit.com/product/5501) - The jack works with sockets having a 5.5mm outer diameter and either a 2.5mm or 2.1mm inner-diameter
+* [9V Active Dummy Cell Battery with 8” Flat Flexible Cable _and_ Power Adapter](https://www.lightsandbatteries.com/product-p/9v-eliminator-kit.htm)
+* [Alternative source for 9V battery eliminators](https://batteryeliminatorstore.com/collections/9-volt-battery-eliminators)  (much more expensive)
+
+* * *
+
 
 ## General GitHub Tips
 * [Synchronizing a Fork](https://github.community/t5/How-to-use-Git-and-GitHub/Syncing-a-fork-leaves-me-one-commit-ahead-of-upstream-master/m-p/17711#M5346)
@@ -511,44 +469,7 @@ The links below are a mostly uncurated collection of RCX-related websites and po
 [Private Download Link for Lego.NET]: # (http://www.dcl.hpi.uni-potsdam.de/research/lego.NET/download.htm?&uid=002dd0fd1cfe6c5608f41fc466b25aae)
 
 
-* * *
+## Disclaimer
+Neither this organization nor any of its included projects are associated in any way with LEGO or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
-# RCX Accessories
-
-## RCX Power
-For RCX bricks with a power port, the Lego recommendation was their 9V AC Adapter part # 9833.
-
-## USB-to-Serial Adapter for the Serial IR Tower
-FTDI chips generally have the best reputation, so more general advice is to look for adapters with those chips.
-* [USB-to-Serial Adapter Cable by ESU](https://www.esu.eu/en/products/accessories/usb-connection-cable/) - ESU needed reliable adapters to work with the serial connections on their hardware, so they have a vested interest in ensuring that these adapters are functionally robust.
-
-## Battery Elimination for Serial IR Tower
-Due to the design of the serial IR tower, a "dummy" 9V battery is the easiest replacement.  No fees, commissions, etc. are earned with these links; other sources welcome.
-* [9V Active Dummy Cell Battery with 8” Flat Flexible Cable and 5.5mm/2.1mm Barrel Socket](https://www.lightsandbatteries.com/ProductDetails.asp?ProductCode=9V-ACTIVE-DUMMY) - For use with a separate power adapter
-  + [USB-A to to 2.1mm Jack with 9V Output](https://www.adafruit.com/product/2777)
-  + [USB-C Power Delivery Adapter with 9V 5A Output](https://www.adafruit.com/product/5449) - The jack works with sockets having a 5.5mm outer diameter and either a 2.5mm or 2.1mm inner-diameter
-  + [USB-A to 5.5mm/2.1mm Jack DC Booster Cable with Selectable 9V or 12V Output](https://www.adafruit.com/product/5457)
-  + [USB-C Power Delivery Adapter with Reprogrammable Output Voltage](https://www.adafruit.com/product/5501) - The jack works with sockets having a 5.5mm outer diameter and either a 2.5mm or 2.1mm inner-diameter
-* [9V Active Dummy Cell Battery with 8” Flat Flexible Cable _and_ Power Adapter](https://www.lightsandbatteries.com/product-p/9v-eliminator-kit.htm)
-* [Alternative source for 9V battery eliminators](https://batteryeliminatorstore.com/collections/9-volt-battery-eliminators)  (much more expensive)
-
-* * *
-
-# Third-Party Vendors
-This GitHub organization is not associated with any of these vendors in any way;
-links are provided as a reference.  Note that the vendors might no longer be offering RCX-compatible components.
-
-## Hardware
-* [HiTechnic Products](https://web.archive.org/web/20050614010406/http://www.hitechnic.com/)
-* [Techno-Stuff: Sensors for Lego NXT, RCX, and VEX Robots](https://web.archive.org/web/20200217205333/http://www.techno-stuff.com/)
-  + [Sensors](https://web.archive.org/web/20200217205530/http://www.techno-stuff.com/sensors.htm)
-  + [Controls](https://web.archive.org/web/20190224064158/http://techno-stuff.com/controls.htm)
-* [MindSensors](https://web.archive.org/web/20070827110116/http://www.mindsensors.com/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=37&MMN_position=11:11)
-
-## Software
-* [RCX PicoBlocks, by Playful Invention](https://www.playfulinvention.com/rcx/)
-* [RoboLab for LabVIEW](http://www.legoengineering.com/robolab-for-labview/)
-  + [LabVIEW](https://decibel.ni.com/content/docs/DOC-15615)
-
-## General Lego
-* [BrickLink](https://www.bricklink.com/)
+Some sites referenced only by link do not have a repository setup to due to identified redistribution restrictions.
