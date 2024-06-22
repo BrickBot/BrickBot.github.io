@@ -8,18 +8,20 @@ work with the latest host platforms.
 
 The initial eighty-plus (80+) projects gathered under this BrickBot organization on GitHub were largely collected by Matthew Sheets.
 
-## [Quick Start and Setup](Quick-Start.md):  Begin programming with the LEGO MindStorms RCX!
+## [Quick Start and Setup](Quick-Start.md)
+Begin programming with the LEGO MindStorms RCX!
 
-## [**Project Index**](Project-Index.md):  A list of the collection of 80+ projects for the LEGO MindStorms RCX
+## [Project Index](Project-Index.md)
+A list of the collection of 80+ projects for the LEGO MindStorms RCX
 
 * * *
 
 # Additional Resources
 
 ## Archives of Official Manufacturer Releases
-* [**Official LEGO® Releases**](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Archive of official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
-* [**Supporting Software**](https://github.com/BrickBot/Archive/releases/tag/Win9x):  Archived drivers, updates, system prerequisites, and more
-* [**Media**](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
+* [Official LEGO® Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Archive of official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
+* [Supporting Software](https://github.com/BrickBot/Archive/releases/tag/Win9x):  Archived drivers, updates, system prerequisites, and more
+* [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, video, etc.
 
 ## Advanced Scenarios
 * [Emulators and Simulators](Emulators.md):  Test-run your programs on a virtual RCX
@@ -171,6 +173,7 @@ Due to the design of the serial IR tower, a "dummy" 9V battery is the easiest re
 
 [Private Download Link for Lego.NET]: # (http://www.dcl.hpi.uni-potsdam.de/research/lego.NET/download.htm?&uid=002dd0fd1cfe6c5608f41fc466b25aae)
 
+* * *
 
 ## Disclaimer
 Neither this organization nor any of its included projects are associated in any way with LEGO or any other companies.  Follow [this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
