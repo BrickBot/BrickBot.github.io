@@ -1,9 +1,9 @@
 # Welcome to the LEGO MindStorms RCX Hub!
-> “The LEGO MindStorms Robotics Invention System [which included the RCX] is the best-selling LEGO® set ever.
+> “The LEGO MindStorms Robotics Invention System [which included the RCX] is the best-selling LEGO set ever.
 Over 1 million of these have been sold globally since their launch.”
 <sup>[1](https://gizmodo.com/everything-you-always-wanted-to-know-about-lego-5019797), [2](https://www.wired.com/2006/01/geeks-in-toyland/)</sup>
 
-This BrickBot organization is dedicated to the LEGO MindStorms RCX and the development activity that grew up around it.
+This BrickBot organization is dedicated to preserving the legacy of the LEGO MindStorms RCX and the development activity that grew up around it.
 Here you will find repositories of RCX-related projects, as well as links to related resources.
 The initial eighty-plus (80+) projects gathered under this BrickBot organization on GitHub were largely collected by Matthew Sheets.
 
@@ -57,7 +57,7 @@ The links below include partially-curated collections of RCX-related material.  
 
 # Like what you’ve found?
 Wondering how to easily download it all for use?
-* Check out [gh-archive-org](https://github.com/BrickBot/gh-archive-org), our GitHub CLI extension for downloading an archive of a GitHub organization!
+* Check out [gh-archive-org](https://github.com/BrickBot/gh-archive-org), our GitHub CLI extension for downloading an archive of an entire GitHub organization!
 
 * * *
 
