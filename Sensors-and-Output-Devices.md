@@ -2,8 +2,9 @@
 
 ## LEGO Sensors
 
-### Hacks
-* [Lego Rotation Sensor Internals and Fix](http://www.philohome.com/sensors/legorot.htm)
+### Rotation Sensor
+* [LEGO Rotation Sensor Details](https://www.thepoetters.de/rcx/rotation/english.html)
+* [LEGO Rotation Sensor Internals and Fix](http://www.philohome.com/sensors/legorot.htm)
 
 
 ## Custom Hardware

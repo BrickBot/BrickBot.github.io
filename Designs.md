@@ -7,7 +7,7 @@ Please see the archive of [official LEGO RCX releases](https://github.com/BrickB
 ## Links to Other Designs
 
 ### Design Collections
-* [Philo Designs](https://www.philohome.com/mindstorms.htm)
+* [Philo Designs](https://www.philohome.com/mindstorms.htm)  (more content available through the [home page](https://www.philohome.com/))
 * [Danny’s Robots](https://web.archive.org/web/20060622010726/http://unitutor.unisi.it/~danny/robots.htm)
 * [Linda Hamilton's Technology and Transportation Education-Oriented Designs (via archive.org)](https://web.archive.org/web/20190911084042/https://www.marshall.edu/LEGO/plans.html)
   + [One Motor Vehicle](https://web.archive.org/web/20190911061020/http://www.marshall.edu/LEGO/lessonplans/TinyCar/TinyCar.html)

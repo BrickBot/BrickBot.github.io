@@ -35,6 +35,7 @@ These firmware release can be loaded on the RCX and will run as-is, with no addi
 
 
 ## Firmware Information Links
+* [Lego RCX Firmware Disassembler](http://web.archive.org/web/20011029155757/http://www.geocities.com/ResearchTriangle/Thinktank/4411/)
 * [PBrick Firmware Info](https://pbrick.info/rcx-firmware/)
 * [jverne Firmware README](https://github.com/jverne/nqc/tree/master/firmware)
 * [Francesco Ferrara Lego Page](https://web.archive.org/web/20150305024343/http://www.elenafrancesco.org/old/lego/)
