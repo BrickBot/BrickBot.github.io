@@ -1,17 +1,17 @@
 # Quick Start & Setup Guide for the LEGO MindStorms RCX
 
 ## Quick Start Menu
-There are a lot of projects to explore, but where to start?
+There are 80+ projects to explore, but where to start?
 
 | You would like to program using… | Your computer type… | Suggested Project | Project Description |
 |----------------------------------|---------------------|-------------------|---------------------|
-| Visual Icons | Supports Java | VisualNQC | An iconic programming tool offering functionality similar to LEGO’s original Robotics Invention System software |
-| An IDE with Debugging Support | Windows | RobotC | A full-featured Windows IDE offering the only support at this level for comprehensive, real-time debugging |
-| A Multi-Platform IDE | Windows / Mac / \*nix | BricxCC | A multi-platform IDE that supports writing NQC code |
-| A Java Environment | Supports Java | HaikuVM | A leJOS successor for programming the RCX using Java |
-| An Environment for Open Source Firmware | Windows / Mac /\*nix | BrickOS-Bibo | Offers lower-level control of the RCX and supports multiple programming languages |
+| Visual Icons | Supports Java | [VisualNQC](https://github.com/BrickBot/VisualNQC) | An iconic programming tool offering functionality similar to LEGO’s original Robotics Invention System software |
+| An IDE with Debugging Support | Windows | [RobotC](https://github.com/BrickBot/RobotC) | A full-featured Windows IDE offering the only support at this level for comprehensive, real-time debugging |
+| A Multi-Platform IDE | Windows / Mac / \*nix | [BricxCC](https://github.com/BrickBot/BricxCC) | A multi-platform IDE that supports writing NQC code |
+| A Java Environment | Supports Java | [HaikuVM](https://github.com/BrickBot/HaikuVM) | A leJOS successor for programming the RCX using Java |
+| An Environment for Open Source Firmware | Windows / Mac /\*nix | [BrickOS-Bibo](https://github.com/BrickBot/BrickOS-Bibo) | Offers lower-level control of the RCX and supports multiple programming languages |
 
-For the more technically inclined, or for more advanced educational scenarios, we strongly encourage reviewing the numerous other options available across this organization’s repositories.
+For the more technically inclined, or for more further educational scenarios, we strongly encourage reviewing the [numerous other options available across this organization’s repositories](Project-Index.md).
 
 # Important Prerequisites
 

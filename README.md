@@ -21,23 +21,29 @@ Do you have a copy of a long-lost project, or would you like to help keep RCX pr
 
 # Resources & Information
 
-## Archives of Official Manufacturer Releases
-* [Official LEGO® Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Archive of official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
+## Archives of Official Releases
+* [Manufacturer Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Archive of official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
 * [Supporting Software](https://github.com/BrickBot/Archive/releases/tag/Win9x):  Archived drivers, updates, system prerequisites, and more
 * [Multimedia](https://github.com/BrickBot/Archive/releases/tag/LEGO-Multimedia):  Archived images, sounds, wallpaper, etc.
 
-## Advanced Scenarios
+## Advanced Topics
 * [Emulators and Simulators](Emulators.md):  Test-run your programs on a virtual RCX
 * [Alternate Firmware](Firmware.md):  Archive of notable known alternate RCX firmware images
-* [Sensors and Output Devices](Sensors-and-Output-Devices.md): Hacks and custom hardware
+* [Sensors and Output Devices](Sensors-and-Output-Devices.md):  Hacks and custom hardware
+* [Communication](Communication.md):
+  + LNP: The LegOS Network Protocol
+  + Communicating across devices in the LEGO ecosystem
+  + Hardware hacks for RCX communication
 
-## Designs & Learning
-* [Robot Designs](Designs.md):  Links and files for various robot designs
-* [Education](Resources-Educational.md):  Resources for those using the RCX in education
+## Information & Learning
+* [Education](Resources-Educational.md):  Resources for using the RCX in education
+
 
 ## Add-ons and Accessories
 * [Hardware Accessories](Accessories-Hardware.md):  Power supplies, adapters, battery eliminators, and more
 
+## Building
+* [Robot Designs](Designs.md):  Links and files for various robot designs
 
 
 * * *
@@ -72,28 +78,6 @@ The links below are a partially-curated collection of RCX-related websites and p
 * 
 * 
 * [Lego RCX Firmware Disassembler](http://web.archive.org/web/20011029155757/http://www.geocities.com/ResearchTriangle/Thinktank/4411/)
-
-## Communication
-* General LEGO IR
-* LEGO Visual Light Link (VLL)
-  + [Visual Light Link Programming the LEGO Micro Scout with the RCX](http://www.elecbrick.com/vll/)
-    - RCX 2.0 firmware includes support for sending VLL commands
-* LNP
-  + [How to LNP](http://www.cs.brown.edu/courses/cs148/old/2004fall/brickOS/HOWTO/lnp.html)
-  + [Notes on LNP](https://web.archive.org/web/20040627230632/http://www.docs.uu.se/docs/undergrad/instances/spring2002/RTSystemDvpMnp/assignments/notes_on_lnp.html)
-
-## Hardware Hacks: Communication
-[BrickOS-Bibo Patch # 33](https://news.lugnet.com/robotics/rcx/legos/?n=4057), incorporated by Matthew Sheets, included Bluetooth-facilitating capabilities
-* [Serial IR Tower Hacks](http://web.archive.org/web/20060207165221/http://oase.uci.kun.nl/~mientki/Lego_Knex/Lego_electronica/IR_tower/IR_tower.htm)
-* [Smeagol Sub-projects Mars rover](https://web.archive.org/web/20080324192255/http://www.mobnets.rwth-aachen.de/smeagol/sub-mars.php)
-* [Wireless Radio Communication](http://www.robotics.sk/maine.php?page=/projects/rcxbt/)Bluetooth
-* [Hardware Hacks to Setup a Bluetooth Connection](https://web.archive.org/web/20051207031919/http://www-date.uni-paderborn.de/pub/people/dasas/Beh03.pdf)  (_in German_)
-* [Board-Soldering Communication Hacks](http://www.convict.lu/Jeunes/RCXCam/RCXCam_Journal.htm)
-* [Use an Audio Output Jack to Send IR Commands](https://github.com/legokichi/webRCX)
-
-## Firmware/Languages Lists
-* [Quick Start Guide](https://web.archive.org/web/20090502162540/http://www.ee.adfa.edu.au/staff/hrp/teaching/LegoMindstorm/LegoHelpHRP.html)
-* [Old listing of various programming languages for the RCX, retrieved via archive.org](http://web.archive.org/web/20070411223240/http://club.lego.com/messageboards/ShowPost.aspx?PostID=390806)
 
 ## General Lego
 * [BrickLink](https://www.bricklink.com/)

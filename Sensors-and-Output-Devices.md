@@ -1,4 +1,4 @@
-# Sensors & Multiplexers for the LEGO MindStorms RCX
+# Extending the LEGO MindStorms RCX
 
 ## LEGO Sensors
 
@@ -8,7 +8,7 @@
 
 ## Custom Hardware
 
-## Custom Multiplexer Creation Prep
+### Custom Multiplexer Creation Prep
 * [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
 
 ### Input & Output Multiplexers

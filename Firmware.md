@@ -38,3 +38,7 @@ These firmware release can be loaded on the RCX and will run as-is, with no addi
 * [PBrick Firmware Info](https://pbrick.info/rcx-firmware/)
 * [jverne Firmware README](https://github.com/jverne/nqc/tree/master/firmware)
 * [Francesco Ferrara Lego Page](https://web.archive.org/web/20150305024343/http://www.elenafrancesco.org/old/lego/)
+
+## Historical Lists of Known Firmware/Languages
+* [Quick Start Guide](https://web.archive.org/web/20090502162540/http://www.ee.adfa.edu.au/staff/hrp/teaching/LegoMindstorm/LegoHelpHRP.html)
+* [Old listing of various programming languages for the RCX, retrieved via archive.org](http://web.archive.org/web/20070411223240/http://club.lego.com/messageboards/ShowPost.aspx?PostID=390806)
