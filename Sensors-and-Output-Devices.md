@@ -8,6 +8,9 @@
 
 ## Custom Hardware
 
+## Custom Multiplexer Creation Prep
+* [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
+
 ### Input & Output Multiplexers
 * [TFM's Home Page](http://www.akasa.bc.ca/tfm/) – See the "My LEGO Workshop (MindStorms)" link for the following:
   + Resistor Switch Pad: 4 switch sensors on 1 sensor input

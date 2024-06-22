@@ -5,11 +5,11 @@ There are a lot of projects to explore, but where to start?
 
 | You would like to… | Your computer type… | Suggested Project | Project Description |
 |--------------------|---------------------|-------------------|---------------------|
-| Visually Program | Supports Java | VisualNQC | An iconic programming tool offering functionality similar to LEGO’s original Robotics Invention System software |
-| Write Code with Debugging Support | Windows | RobotC | A full-featured Windows IDE offering the only support at this level for comprehensive, real-time debugging |
-| Write Code to Program | Windows/Mac/\*nix | BricxCC | A multi-platform IDE that supports writing NQC code |
-| Program in a Java Environment | Supports Java | HaikuVM | A leJOS successor for programming the RCX using Java |
-| Use Open Source Firmware | Windows/Mac/\*nix | BrickOS-Bibo | Offers lower-level control of the RCX and supports multiple programming languages |
+| Program Using Visual Icons | Supports Java | VisualNQC | An iconic programming tool offering functionality similar to LEGO’s original Robotics Invention System software |
+| Program Using an IDE with Debugging Support | Windows | RobotC | A full-featured Windows IDE offering the only support at this level for comprehensive, real-time debugging |
+| Program Using a Multi-Platform IDE | Windows / Mac / \*nix | BricxCC | A multi-platform IDE that supports writing NQC code |
+| Program Using a Java Environment | Supports Java | HaikuVM | A leJOS successor for programming the RCX using Java |
+| Program Targeting Open Source RCX Firmware | Windows / Mac /\*nix | BrickOS-Bibo | Offers lower-level control of the RCX and supports multiple programming languages |
 
 For the more technically inclined, or for more advanced educational scenarios, we strongly encourage reviewing the numerous other options available across this organization’s repositories.
 
