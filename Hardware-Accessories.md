@@ -1,4 +1,4 @@
-# Hardware Accessories for the LEGO MindStorms RCX
+# LEGO MindStorms RCX Hardware Accessories
 
 ## RCX Power
 For RCX bricks with a power port, the LEGO recommendation was their 9V AC Adapter part # 9833.
