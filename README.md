@@ -36,7 +36,7 @@ The links below include partially-curated collections of RCX-related material.  
 * [General Resources](Resources-General.md):  While not specific to the RCX, content can be relevant to the RCX
 
 ## Add-ons & Accessories
-* [Hardware Accessories](Accessories-Hardware.md):  Power supplies, adapters, battery eliminators, and more
+* [Hardware Accessories](Hardware-Accessories.md):  Power supplies, adapters, battery eliminators, and more
 
 ## Building & Construction
 * [Robot Designs](Designs.md):  Links and files for various robot designs
@@ -49,7 +49,7 @@ The links below include partially-curated collections of RCX-related material.  
 
 ## Human Interest
 * [Geeks in Toyland](https://www.wired.com/2006/01/geeks-in-toyland/):  A behind-the-scenes look at MindStorms development at LEGO®
-* [Is Iron Man an RCX Robot?](https://deeperdesign.wordpress.com/2010/02/26/is-iron-man-made-of-lego/)
+* [Is Iron Man an RCX Robot?](https://web.archive.org/web/20150820003106/https://deeperdesign.wordpress.com/2010/02/26/is-iron-man-made-of-lego/)
 * [Everything You Always Wanted to Know about LEGO®](https://gizmodo.com/everything-you-always-wanted-to-know-about-lego-5019797)
 
 
@@ -62,6 +62,10 @@ Wondering how to easily download it all for use?
 * * *
 
 # Disclaimer
-Neither this organization nor any of its included projects are associated in any way with LEGO or any other companies.  [Follow this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
+Neither this organization nor any of its included projects are associated in any way with LEGO or any other companies.
+Follow these links to access the official [LEGO® MindStorms Website](https://www.lego.com/en-us/themes/mindstorms/about),
+[downloads page](https://www.lego.com/en-us/themes/mindstorms/downloads),
+[LEGO® Education](https://education.lego.com/), and
+[educational software](https://education.lego.com/en-us/downloads/mindstorms-ev3/software/).
 
 Some sites referenced only by link do not have a repository setup to due to identified redistribution restrictions.

@@ -1,6 +1,6 @@
 # Communication and the LEGO MindStorms RCX
 
-## 
+## Projects Extending Communication Capabilities
 * [com0com](https://github.com/BrickBot/Archive/releases/tag/com0com):  A suite of drivers and tools offering virtual serial ports, serial port redirection, and more.
 * [ir-server host utility in BrickOS-Bibo](https://github.com/BrickBot/brickOS-bibo/):  Communicate between physical, remote, and/or multiple virtual RCX devices and hosts.
 * [hubub](https://github.com/BrickBot/hubub):  A simple TCP data reflector for quickly building distributed applications. It can broadcast data from one client to many (or many to many) with little system overhead.

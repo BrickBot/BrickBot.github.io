@@ -1,4 +1,4 @@
-# Quick Start & Setup Guide for the LEGO MindStorms RCX
+# LEGO MindStorms RCX Startup Guide
 
 ## Quick Start Menu
 There are 80+ projects to explore, but where to start?
