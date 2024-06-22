@@ -1,5 +1,5 @@
 # Welcome to the LEGO MindStorms RCX Hub!
-> “The LEGO MindStorms Robotics Invention System [which included the RCX] is the best-selling Lego set ever.
+> “The LEGO MindStorms Robotics Invention System [which included the RCX] is the best-selling LEGO® set ever.
 Over 1 million of these have been sold globally since their launch.”
 <sup>[1](https://gizmodo.com/everything-you-always-wanted-to-know-about-lego-5019797), [2](https://www.wired.com/2006/01/geeks-in-toyland/)</sup>
 
@@ -43,9 +43,9 @@ The links below include partially-curated collections of RCX-related material.  
 
 ## Advanced Topics
 * [Emulators and Simulators](Emulators.md):  Test-run your programs on a virtual RCX
-* [Alternate Firmware](Firmware.md):  Archive of notable known alternate RCX firmware images
+* [Alternate Firmware](Firmware.md):  Archive of notable, known alternate RCX firmware images
 * [Sensors and Output Devices](Sensors-and-Output-Devices.md):  Hacks and custom hardware
-* [Communication](Communication.md):  Networking, IR, interfacing with other LEGO devices, hardware hacks, and more
+* [Communication](Communication.md):  Networking, IR, interfacing with other (non-RCX) LEGO devices, hardware hacks, and more
 
 ## Human Interest
 * [Geeks in Toyland](https://www.wired.com/2006/01/geeks-in-toyland/):  A behind-the-scenes look at MindStorms development at LEGO®
@@ -55,12 +55,13 @@ The links below include partially-curated collections of RCX-related material.  
 
 * * *
 
-Like what you’ve found?  Wondering how to easily download it all for use?
+# Like what you’ve found?
+Wondering how to easily download it all for use?
 * Check out [gh-archive-org](https://github.com/BrickBot/gh-archive-org), our GitHub CLI extension for downloading an archive of a GitHub organization!
 
 * * *
 
-## Disclaimer
+# Disclaimer
 Neither this organization nor any of its included projects are associated in any way with LEGO or any other companies.  [Follow this link to access the official Lego MindStorms Website](http://mindstorms.lego.com/).
 
 Some sites referenced only by link do not have a repository setup to due to identified redistribution restrictions.

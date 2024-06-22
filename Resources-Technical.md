@@ -1,4 +1,4 @@
-# Technical Resources for the LEGO MindStorms RCX
+# Technical LEGO MindStorms RCX Resources
 
 ## Assorted RCX Tips & Info
 * [About the Lego MindStorms Robotics Invention System](https://web.archive.org/web/20060223231555/http://www.pulsar.org/archive/stormwatch/AboutLegoMindstorms.html)

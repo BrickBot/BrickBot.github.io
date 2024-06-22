@@ -1,4 +1,4 @@
-# General Reources for the LEGO MindStorms RCX
+# General LEGO MindStorms RCX Resources
 
 ## Communities
 * [RCX Subforum on LUGNET](https://news.lugnet.com/robotics/rcx/)

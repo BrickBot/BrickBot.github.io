@@ -1,4 +1,4 @@
-# Educational Resources for the LEGO MindStorms RCX
+# The LEGO MindStorms RCX in Education
 
 ## Educational Resources
 * [LEGO Education Home](http://www.lego.com/education/)
