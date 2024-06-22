@@ -24,12 +24,12 @@ Do you have a copy of a long-lost project, or would you like to help keep RCX pr
 ## Archives of Official Manufacturer Releases
 * [Official LEGO® Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Archive of official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
 * [Supporting Software](https://github.com/BrickBot/Archive/releases/tag/Win9x):  Archived drivers, updates, system prerequisites, and more
-* [Media](https://github.com/BrickBot/BrickBot.github.io/tree/master/Media):  Archived images, sounds, wallpaper, etc.
+* [Multimedia](https://github.com/BrickBot/Archive/releases/tag/LEGO-Multimedia):  Archived images, sounds, wallpaper, etc.
 
 ## Advanced Scenarios
 * [Emulators and Simulators](Emulators.md):  Test-run your programs on a virtual RCX
 * [Alternate Firmware](Firmware.md):  Archive of notable known alternate RCX firmware images
-* [Sensors and Output Devices]: Hacks and custom hardware
+* [Sensors and Output Devices](Sensors-and-Output-Devices.md): Hacks and custom hardware
 
 ## Designs & Learning
 * [Robot Designs](Designs.md):  Links and files for various robot designs

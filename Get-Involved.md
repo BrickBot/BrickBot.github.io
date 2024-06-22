@@ -1,4 +1,4 @@
-# Get Involved: Preserve the Legacy of the LEGO MindStorms RCX!
+# Grow the Legacy of the LEGO MindStorms RCX!
 
 ## Missing/Wanted
 For a few projects known to exist, the source no longer seems to be available.  Might you have a copy?
