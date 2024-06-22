@@ -1,4 +1,4 @@
-# Robot Designs
+# Robot Designs for the LEGO MindStorms RCX
 
 ## Official LEGO Master Builder Designs
 Please see the archive of [official LEGO RCX releases](https://github.com/BrickBot/Archive/releases/tag/LEGO)

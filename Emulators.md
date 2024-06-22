@@ -1,5 +1,4 @@
-
-# Emulation
+# Emulation of the LEGO MindStorms RCX
 A number of the emulators support TCP communication in place of the IR communication.
 While some tools have been updated to provide built-in support for TCP communication,
 if you are using a tool that supports serial IR communication but not TCP communication,
