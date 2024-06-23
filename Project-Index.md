@@ -247,6 +247,7 @@ Some of these projects are currently hosted in external repositories but can be 
 ## TODO: Other projects, in additon to the section immediately above
 
 * [Ultimate RoboLab](https://www.convict.lu/Jeunes/ultimate_stuff/Ultimate_intro.htm)
+  + [Ultimate RoboLab Site (see also the "Download" tabs)](https://web.archive.org/web/20090727214457/https://www.ultimaterobolab.com/)
 
 * [Use an Audio Output Jack to Send IR Commands](https://github.com/legokichi/webRCX)
 
