@@ -44,6 +44,7 @@ Please see the archive of [official LEGO RCX releases](https://github.com/BrickB
 * [Arcticus Xenon Lego RCX LIDAR Station Isotopia](http://xenon.arcticus.com/lego-rcx-lidar-station)
   + [LIDAR Display for Lego RCX LIDARStation Isotopia](http://xenon.arcticus.com/lidar-display-lego-rcx-lidarstation)
 * [A Lego-robot with camera controlled by Matlab overview](http://web.abo.fi/fak/tkf/rt/robot/index.php?content=0)
+* [Building a LEGO Technic + MindStorms Plotter](https://maehw.wordpress.com/2024/06/17/building-a-lego-technic-mindstorms-plotter/)
 * [Chattanooga Robotics Web Site - BOT-BOX](http://www.chattabot.org/botbox.html)
 * [Creating a Spider Robot using LEGO-Mindstorms](http://web.archive.org/web/20080206072202/http://schalburg.homepage.dk/Spider/Spider.html)
 * [Design and development of LEGO Mindstorms based nomadic services](http://telemedicine.ewi.utwente.nl/education/completed_master_assignments/vantol_small.pdf)

@@ -186,7 +186,7 @@
   + **Support for More Current Java Versions**
     - [oversticht/lego-rcx-lejos](https://github.com/oversticht/lego-rcx-lejos) (external)
       * Based on leJOS v2.1 instead of v3.0-RC2 that is in the repository in this BrickBot organization
-    - [HaikuVM](https://haiku-vm.sourceforge.net) (external)
+    - [HaikuVM](https://haiku-vm.sourceforge.net) / [Fork](https://github.com/chuckb/haikuVM) with [Gradle Plugin](https://github.com/chuckb/HaikuVMPlugin) (external)
       * A spinoff Java VM approach referenced by @oversticht
 * [TinyVM](https://github.com/BrickBot/TinyVM)
   + A replacement firmware and VM that can execute Java programs in the Lego Mindstorms RCX, supporting several of the most useful features of the Java language.
@@ -240,3 +240,28 @@ Some of these projects are currently hosted in external repositories but can be 
 * [RemoteMindStorm](https://github.com/JSFernandes/RemoteMindstorm) <sup>↗</sup> (NQC-based):  Control an RCX via LeapMotion and voice, using a basic messaging scheme
   + Includes a number of binary *.jar and *.so files in version control
 * [Rokenstorms: The Rokenbok/Mindstorms Radio Control Module Project](https://web.archive.org/web/20081219025330/http://www.stormyprods.com/lego/rokenbok.htm)
+
+
+<!--
+
+## TODO: Other projects, in additon to the section immediately above
+
+* [Ultimate RoboLab](https://www.convict.lu/Jeunes/ultimate_stuff/Ultimate_intro.htm)
+
+* [Use an Audio Output Jack to Send IR Commands](https://github.com/legokichi/webRCX)
+
+* [UniBrick](https://github.com/JorgePe/UniBrick):  Universal LIRC controller for LEGO devices
+
+* LeJOS-Derivative Projects Supporting More Current Java Versions
+  + [oversticht/lego-rcx-lejos](https://github.com/oversticht/lego-rcx-lejos) (external)
+    - Based on leJOS v2.1 instead of v3.0-RC2 that is in the repository in this BrickBot organization
+    - See the main README for a discussion of running on more modern systems
+  + [HaikuVM](https://haiku-vm.sourceforge.net) / [Fork](https://github.com/chuckb/haikuVM) with [Gradle Plugin](https://github.com/chuckb/HaikuVMPlugin) (external)
+    - A spinoff Java VM approach referenced by @oversticht
+* [Scratch for leJOS](https://github.com/swolla/scratch-lejos-rcx):  Create leJOS RCX programs using Scratch
+
+* From Host Computer Setup on the [Quick Start Page](Quick-Start.md):
+  +[pnc-rcx Tools and programs for building programs for the Lego Mindstorms RCX 1.0 (Hitachi H8300)](https://github.com/pnc/rcx)
+  +[NQC on Mac OS X](https://github.com/Glitchbone/mindstorms-rcx-osx-tools)
+
+-->

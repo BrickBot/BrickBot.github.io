@@ -48,10 +48,11 @@ The links below include partially-curated collections of RCX-related material.  
 * [Communication](Communication.md):  Networking, IR, interfacing with other (non-RCX) LEGO devices, hardware hacks, and more
 
 ## Human Interest
+* [What Happened before the [MindStorms] Announcement in January 1998](https://lan.lego.com/news/overview/lego-mindstorms-reflections-%E2%80%93-what-happened-before-the-announcement-in-january-1998-r173/)
+* [Dealing with the Unexpected: Critical Incidents in the LEGO Mindstorms Team](https://www.researchgate.net/publication/247717649_Dealing_with_the_Unexpected_Critical_Incidents_in_the_LEGO_Mindstorms_team)
 * [Geeks in Toyland](https://www.wired.com/2006/01/geeks-in-toyland/):  A behind-the-scenes look at MindStorms development at LEGO®
 * [Is Iron Man an RCX Robot?](https://web.archive.org/web/20150820003106/https://deeperdesign.wordpress.com/2010/02/26/is-iron-man-made-of-lego/)
 * [Everything You Always Wanted to Know about LEGO®](https://gizmodo.com/everything-you-always-wanted-to-know-about-lego-5019797)
-
 
 * * *
 
@@ -69,3 +70,8 @@ Follow these links to access the official [LEGO® MindStorms Website](https://ww
 [educational software](https://education.lego.com/en-us/downloads/mindstorms-ev3/software/).
 
 Some sites referenced only by link do not have a repository setup to due to identified redistribution restrictions.
+
+<br />
+
+**Epilog**:  After a 24-year run, LEGO® discontinued its MindStorms line in October 2022.
+<sup>[3](https://brickset.com/article/84219/lego-mindstorms-to-be-discontinued)</sup>

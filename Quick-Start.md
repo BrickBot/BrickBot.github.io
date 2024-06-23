@@ -53,6 +53,7 @@ WSL now supports graphical capabilities
 * [Using Lego Mindstorms on Ubuntu « Adrian Smith's Blog](http://www.17od.com/2013/01/13/using-lego-mindstorms-on-ubuntu/)
 * [pnc-rcx Tools and programs for building programs for the Lego Mindstorms RCX 1.0 (Hitachi H8300)](https://github.com/pnc/rcx)
 * Kernel Driver: [LegoUSB](http://legousb.sourceforge.net/) – This driver is now officially part of the Linux kernel as of Linux 2.6.1.
+  + [Configuring the LEGO USB Tower on Linux](https://pbrick.info/index.html-p=8.html)
 
 ### Debian / Ubuntu
 * [Lego-Related Packages for Debian, from the Debian Lego Team](https://qa.debian.org/developer.php?login=debian-lego-team%40lists.alioth.debian.org)
