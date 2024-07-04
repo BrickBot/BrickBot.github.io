@@ -63,7 +63,7 @@ Wondering how to easily download it all for use?
 * * *
 
 # Disclaimer
-Neither this organization nor any of its included projects are associated in any way with LEGO or any other companies.
+Neither this organization nor any of its included projects are associated in any way with the LEGO Group or any other companies.
 Follow these links to access the official [LEGO® MindStorms Website](https://www.lego.com/en-us/themes/mindstorms/about),
 [downloads page](https://www.lego.com/en-us/themes/mindstorms/downloads),
 [LEGO® Education](https://education.lego.com/), and
