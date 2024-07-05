@@ -1,12 +1,16 @@
 # The LEGO MindStorms RCX in Education
 
+## Books
+* [__Definitive Guide to LEGO MindStorms, Second Edition__](https://archive.org/details/definitiveguidet0000baum), by Dave Baum
+  + An electronic version is available for checkout from the library at the Internet Archive at the link above.
+
 ## Educational Resources
 * [LEGO Education Home](http://www.lego.com/education/)
 * [Lego Engineering Home](http://www.legoengineering.com/)
   + [RCX Challenge Ideas and Information](http://legoengineering.com/platform/rcx/)
-* [Mindstorms in Education](http://www.crynwr.com/lego-robotics/education.html)
+* [MindStorms in Education](http://www.crynwr.com/lego-robotics/education.html)
 * [NASA Robotics - Robotics Alliance Project](http://robotics.nasa.gov/)
-   -[Robotics Curriculum Clearinghouse - Lesson Plans and Educational Resources](http://robotics.nasa.gov/rcc/)
+  + [Robotics Curriculum Clearinghouse - Lesson Plans and Educational Resources](http://robotics.nasa.gov/rcc/)
 
 ## Links to Education-Oriented Challenges
 * [Collection by Linda Hamilton (via archive.org)](https://web.archive.org/web/20190911084042/https://www.marshall.edu/LEGO/plans.html)
