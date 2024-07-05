@@ -17,12 +17,16 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
 
 ## Contribute to Projects
 Interested in helping out?  Below are a few of the many ways that you can contribute.
-1. Packaging:  Looking to be able to support a reasonable cross-section of systems, including openSUSE Tumbleweed (rolling), Debian/Ubuntu, Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
+1. Packaging:  Looking to be able to support a reasonable cross-section of systems,
+   including [openSUSE Tumbleweed (rolling)](https://search.opensuse.org/packages/),
+   [Debian](https://packages.debian.org/index)/[Ubuntu](https://packages.ubuntu.com/)
+   (Debian LEGO team [list](https://alioth-lists.debian.net/pipermail/debian-lego-team/) and [repos](https://salsa.debian.org/debian-lego-team/)),
+   Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
    1. [NQC](https://github.com/BrickBot/nqc)
    2. [VisualNQC](https://github.com/BrickBot/VisualNQC)
    3. [binutils-cil](https://github.com/BrickBot/binutils-cil) for h8300-hitachi-hms
    4. [gcc-cil](https://github.com/BrickBot/gcc-cil) for h8300-hitachi-hms, with g++
-   5. [brickOS-bibo](https://github.com/BrickBot/brickOS-bibo)
+   5. [brickOS-bibo](https://github.com/BrickBot/brickOS-bibo)  [Debian/Ubuntu also includes an old [lnpd package](https://packages.ubuntu.com/noble/lnpd)]
    6. [brickEmu](https://github.com/BrickBot/brickEmu)
    7. [gdb]() for h8300-hitachi-hms
    8. [gdb-dev]() for h8300-hitachi-hms
