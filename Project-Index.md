@@ -235,6 +235,7 @@
 
 ## Projects for Interacting with Other Devices
 Some of these projects are currently hosted in external repositories but can be transferred or imported if there is interest
+* [Power Functions Remote](https://github.com/BrickBot/PowerFunctions-Remote):  Use an RCX as a remote control for LEGO Power Functions 
 * [RCX-PI](https://github.com/BrickBot/RCX-PI) (leJOS-based): an experimental API to integrate a Raspberry PI with a Lego MindStorms RCX by using smartphone sensors and cameras to allow seamless remote control and further robotics related development
 * [RoboRemote](https://github.com/hanswannop/RoboRemote) <sup>↗</sup> (leJOS-based): Remotely contol an RCX using an attached smartphone, light sensors, leJOS, WebSockets, and Go
 * [RemoteMindStorm](https://github.com/JSFernandes/RemoteMindstorm) <sup>↗</sup> (NQC-based):  Control an RCX via LeapMotion and voice, using a basic messaging scheme
