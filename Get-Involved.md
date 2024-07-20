@@ -34,11 +34,14 @@ Interested in helping out?  Below are a few of the many ways that you can contri
        * [Electron](https://www.electronjs.org/)
        * [GitHub Pages Publishing](https://github.com/marketplace/actions/upload-github-pages-artifact)
    + BrickOS - integrate support for additional programming languages from currently-separate projects
-1. Packaging:  Looking to be able to support a reasonable cross-section of systems,
+2. Packaging:  Looking to be able to support a reasonable cross-section of systems,
    including [openSUSE Tumbleweed (rolling)](https://search.opensuse.org/packages/),
    [Debian](https://packages.debian.org/index)/[Ubuntu](https://packages.ubuntu.com/)
-   (Debian LEGO team [list](https://alioth-lists.debian.net/pipermail/debian-lego-team/) and [repos](https://salsa.debian.org/debian-lego-team/)),
-   Windows (via Windows Subsystem for Linux), and Raspberry Pi.  Some specific projects to package include the following:
+   (Debian LEGO team [list](https://alioth-lists.debian.net/pipermail/debian-lego-team/)
+   and [repos](https://salsa.debian.org/debian-lego-team/)),
+   Windows (via Windows Subsystem for Linux), and Raspberry Pi.
+   As reference, some of these packages had previously been created for the [SliTaz distribution](https://pkgs.slitaz.org/).
+   Some specific projects to package include the following:
    + For Standard LEGO Firmware
      1. [NQC](https://github.com/BrickBot/nqc)
      2. [VisualNQC](https://github.com/BrickBot/VisualNQC)
@@ -55,6 +58,6 @@ Interested in helping out?  Below are a few of the many ways that you can contri
    + For Java / leJOS Environment
      1. [leJOS-RCX](https://github.com/BrickBot/leJOS-RCX)
      2. [Intellejos](https://github.com/BrickBot/Intellejos)
-2. ReadMe/documentation cleanup and formatting:  The vast majority of these projects were developed before Markdown and GitHub conventions were developed
-3. Testing/validation of projects on current platforms
-4. Issues that have been filed within individual projects
+3. ReadMe/documentation cleanup and formatting:  The vast majority of these projects were developed before Markdown and GitHub conventions were developed
+4. Testing/validation of projects on current platforms
+5. Issues that have been filed within individual projects
