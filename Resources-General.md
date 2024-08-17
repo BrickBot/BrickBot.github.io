@@ -4,6 +4,7 @@
 * [RCX Subforum on LUGNET](https://news.lugnet.com/robotics/rcx/)
 * [r/mindstorms](http://mindstorms.reddit.com/): General to Lego MindStorms, but does include some RCX topics
 * [“Bricks” StackExchange](https://bricks.stackexchange.com/): General to Lego, but does include some RCX discussion
+* [EuroBricks](https://www.eurobricks.com/): A portal for LEGO fans to share their creations, discuss LEGO themes, participate in contests and challenges, and join the community.
 
 ## General Lego
 * [BrickLink](https://www.bricklink.com/):  A marketplace for buying and selling LEGO sets and parts
