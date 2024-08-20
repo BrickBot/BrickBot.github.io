@@ -35,8 +35,9 @@ The links below include partially-curated collections of RCX-related material.  
 * [Technical Resources](Resources-Technical.md):  Deeper dives into the RCX and how it works
 * [General Resources](Resources-General.md):  While not specific to the RCX, content can be relevant to the RCX
 
-## Add-ons & Accessories
+## Add-ons, Accessories, & Repair
 * [Hardware Accessories](Hardware-Accessories.md):  Power supplies, adapters, battery eliminators, and more
+* [Hardware Repair](Hardware-Repair.md):  Do-It-Yourself fixes
 
 ## Building & Construction
 * [Robot Designs](Designs.md):  Links and files for various robot designs
