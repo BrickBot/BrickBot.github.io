@@ -13,7 +13,9 @@ If so, please let us know by [posting a new issue here](https://github.com/Brick
   + Small MindstormsTool (SMT): the stand alone version of the tool
 * [Phantom](https://web.archive.org/web/20101213054842/http://members.cox.net/pbrick-alpha/Phantom.htm): An alterative to Spirit.ocx
 * [RCXSimulator](https://www4.cs.fau.de/~felser/RCXSimulator/) <sup>↗</sup>
-  - A Java-based emulator of the Lego MindStorms RCX, including support for GDB and for IR via pseudo-terminals or UDP
+  + A Java-based emulator of the Lego MindStorms RCX, including support for GDB and for IR via pseudo-terminals or UDP
+* [Ada/MindStorms Installer](https://web.archive.org/web/20080526011436/http://www.usafa.af.mil/df/dfcs/adamindstorms1.cfm) <sup>↗</sup>
+  + Write programs using the Ada langague, which would then be compiled to NQC
 
 ## Contribute to Projects
 Interested in helping out?  Below are a few of the many ways that you can contribute.
