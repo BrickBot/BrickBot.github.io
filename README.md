@@ -26,7 +26,9 @@ Do you have a copy of a long-lost project, or would you like to help keep RCX pr
 The links below include partially-curated collections of RCX-related material.  To retrieve some links, it might be necessary to use [archive.org](https://web.archive.org/).
 
 ## Archives of Official Releases
-* [Manufacturer Releases](https://github.com/BrickBot/Archive/releases/tag/LEGO):  Archive of official software, firmware, manuals, etc. from LEGO and Renesas (Hitachi)
+* Manufacturer Releases:  Archive of official software, firmware, manuals, etc.
+  + [LEGO MindStorms RCX](https://github.com/BrickBot/Archive/releases/tag/LEGO)
+  + [Renesas (Hitachi) H8/300](https://github.com/BrickBot/Archive/releases/tag/H8300)
 * [Supporting Software](https://github.com/BrickBot/Archive/releases/tag/Win9x):  Archived drivers, updates, system prerequisites, and more
 * [Multimedia](https://github.com/BrickBot/Archive/releases/tag/LEGO-Multimedia):  Archived images, sounds, wallpaper, etc.
 
