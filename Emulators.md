@@ -29,12 +29,14 @@ Should work with any RCX firmware.
 * [RCXSimulator](https://github.com/BrickBot/RCXSimulator)
   + A Java-based emulator of the Lego MindStorms RCX, including support for GDB and for IR via pseudo-terminals or UDP.
   + Extra support for debugging capabilities, such as might be useful for OS/firmeware development.
+
 ### BrickOS Firmware Simulators
 Simulates the behavior of the BrickOS firmware
 * [LegoSim](https://github.com/BrickBot/LegoSim)
   + A UNIX-based Simulator for LegOS/BrickOS with an Applet-GUI
 * [EmuLegOS](https://github.com/BrickBot/EmuLegOS)
   + An emulator for the LegOS (BrickOS) operating system used on the Lego MindStorms RCX.
+
 ### leJOS “World” Simulators
 Simulates the behavior in a 2D world of an RCX running leJOS firmware
 * [Intellejos](https://github.com/BrickBot/Intellejos)
