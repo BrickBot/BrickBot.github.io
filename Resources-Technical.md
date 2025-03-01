@@ -9,5 +9,6 @@
 [Additional list of RCX resources](http://user.it.uu.se/~tobiasa/lego-resources.html), some of which are no longer available without use of archive.org
 * [RCX Internals](http://www.mralligator.com/rcx/)
   + [RCX Tools](http://www.mralligator.com/rcx/tools.html)
+* [The LEGO RCX, Inside and Out](https://orionrobots.co.uk/2010/01/19/the-lego-rcx-inside-and-out.html)
 * [LEGO MINDSTORMS Internals](https://web.archive.org/web/20190816230906/http://www.crynwr.com/lego-robotics/)
 * [RCX Manual](https://web.archive.org/web/20190703224522/http://legolab.daimi.au.dk/CSaEA/RCX/Manual.dir/RCXManual.html)
