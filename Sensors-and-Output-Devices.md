@@ -12,16 +12,18 @@
 ### Custom Multiplexer Creation Prep
 * [Cutting Electric Plates](http://www.abs-robotics.com/tips/electric/cutplate.htm)
 
-### Input & Output Multiplexers
+### Motor/Output Multiplexers
 * [TFM's Home Page](http://www.akasa.bc.ca/tfm/) – See the "My LEGO Workshop (MindStorms)" link for the following:
-  + Resistor Switch Pad: 4 switch sensors on 1 sensor input
-  + Motor/Light Block: Create 2 motor ports from 1, but with one engaged when Forward and the other when in Reverse
-  + Motor/Sensor Expander: 6 motor ports
-  + Temperature Sensor
+  + Motor/Light Block ([direct link to web subframe](http://www.akasa.bc.ca/tfm/lego_l_m.html))
+    - Create 2 motor ports from 1, but with one engaged when Forward and the other when in Reverse
+  + Motor/Sensor Expander: 6 motor ports ([direct link to web subframe](http://www.akasa.bc.ca/tfm/lego_ms2.html))
 
-### Sensor Adapters & Multiplexers
+### Sensor/Input Adapters & Multiplexers
 * [RCX Digital Input Adapter](http://www.eecs.tufts.edu/~dsculley/RCX/)
 * [Four-Way Touch Sensor Multiplexer](https://www.elecbrick.com/mux/)
+* [Schematic for a Four-Way Touch Sensor Multiplexor](https://www.brickshelf.com/cgi-bin/gallery.cgi?i=1092526)
+* [TFM's Home Page](http://www.akasa.bc.ca/tfm/) – See the "My LEGO Workshop (MindStorms)" link for the following:
+  + Resistor Switch Pad: 4 switch sensors on 1 sensor input ([direct link to web subframe](http://www.akasa.bc.ca/tfm/lego_resistor.html))
 
 ## Custom Input & Output Devices
 
@@ -58,6 +60,8 @@
   + [Temperature Sensor](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/#temp)
   + [Light Sensor](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/#light)
   + [Bend Sensor](https://web.archive.org/web/20090106131819/http://www.stormyprods.com/lego/#bend)
+* [TFM's Home Page](http://www.akasa.bc.ca/tfm/) – See the "My LEGO Workshop (MindStorms)" link for the following:
+  + Temperature Sensor ([direct link to web subframe](http://www.akasa.bc.ca/tfm/lego_temp.html))
 * [Proximity Sensor](https://robotics.benedettelli.com/lego-proximity-sensor-rcx/)
 * [Line Tracking Sensor From Sven Horstmann](http://www.extremenxt.com/linetrak.htm)
 
