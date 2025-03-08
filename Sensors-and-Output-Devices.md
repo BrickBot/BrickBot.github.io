@@ -29,6 +29,7 @@
 
 ### Power Boosters
 * [RCX Motor Power Booster Schematic with RCX Variable-Speed Control](http://news.lugnet.com/robotics/?n=22861)
+  - [Link to the schematic embedded in the above that is hosted on Brick Shelf](https://www.brickshelf.com/cgi-bin/gallery.cgi?i=915453)
 
 ### Limit Switches
 * Techno-Stuff Limit Switch: Stop a motor without using a sensor port
