@@ -75,3 +75,4 @@ links are provided as a reference.  Note that the vendors might no longer be off
   + [Controls](https://web.archive.org/web/20190224064158/http://techno-stuff.com/controls.htm)
 * [MindSensors](https://web.archive.org/web/20070827110116/http://www.mindsensors.com/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=37&MMN_position=11:11)
 * [LePoMux (LEGO Port-Multiplexer)](https://web.archive.org/web/20070216231344/http://www.lepomux.org/)
+* [JCX: Java Control System](https://systronix.com/jcx/)
