@@ -13,6 +13,7 @@ the given project’s site under the [BrickBot organization](https://github.com/
 ### Firmware for Alternate Programming Languages
 
 [RobotC (Dick Swan)](https://github.com/BrickBot/RobotC) – Designed for programming the RCX using a C-like language
+* [Some versions of this firmware are also compatible with NQC](https://github.com/BrickBot/RobotC/releases/tag/Firmware)
 
 [BrickOS / Bibo](https://github.com/BrickBot/brickOS-bibo) – Designed for programming the RCX using languages supported by GCC
 
