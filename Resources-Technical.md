@@ -11,6 +11,9 @@
   + [RCX Tools](http://www.mralligator.com/rcx/tools.html)
 * [The LEGO RCX, Inside and Out](https://orionrobots.co.uk/2010/01/19/the-lego-rcx-inside-and-out.html): Includes microcontroller images and details
 * [LEGO MINDSTORMS Internals](https://web.archive.org/web/20190816230906/http://www.crynwr.com/lego-robotics/)
-* [RCX Manual](https://web.archive.org/web/20190703224522/http://legolab.daimi.au.dk/CSaEA/RCX/Manual.dir/RCXManual.html)
+* [RCX Hardware Manual](https://web.archive.org/web/20190703224522/http://legolab.daimi.au.dk/CSaEA/RCX/Manual.dir/RCXManual.html)
+* RCX Manuals
+  + [RCX Manual(1)](https://xuyihui.wordpress.com/2006/12/10/rcx-manual1/)
+  + [RCX Manual(2)](https://xuyihui.wordpress.com/2006/12/10/rcx-manual2/)
 
 [Additional list of RCX resources](https://web.archive.org/web/20220915000000*/https://user.it.uu.se/~tobiasa/lego-resources.html), some of which are no longer available without use of archive.org
