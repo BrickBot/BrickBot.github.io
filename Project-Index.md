@@ -60,7 +60,7 @@
 * Windows
   + [JoyBricx](https://github.com/BrickBot/JoyBricx)
     - An application for remotely controlling Lego IR-controllable devices such as the RCX, Spybots, and Bionicle RC Fighter via a Lego IR tower using a joystick or game pad
-  + [Dr. Vegetable’s Virtual Remote](https://web.archive.org/web/20161223173934/http://www.drvegetable.com/download_vremote.html) <sup>↗</sup>
+  + [Dr. Vegetable’s Virtual Remote for the LEGO MindStorms RCX](https://github.com/BrickBot/Virtual-Remote)
     - A Windows program that emulates the LEGO MindStorms infrared remote control using your existing USB or RS-232 infrared tower
 * Gnome
   + [BrickRC](https://github.com/BrickBot/BrickRC)
