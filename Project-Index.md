@@ -22,6 +22,7 @@
     - A powerful C-based programming language with a Windows environment for writing and debugging programs, and the only programming language at this level that offers a comprehensive, real-time debugger.
     - Includes its own version of firmware for the RCX
     - The last version that was released with RCX support is now available free of charge
+    - [Teaching RobotC](https://brickbot.github.io/Teaching-RobotC/) content is also available
   + [BricxCC](https://github.com/BrickBot/BricxCC/)
     - An IDE for the Lego MindStorms RCX, as well as the NXT, EV3, and HiTechnic SuperPro
     - Can work with NQC, BrickOS, and leJOS
